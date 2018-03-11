@@ -1,27 +1,98 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { Component } from "react";
 
-export default class App extends React.Component {
-  render() {
+import { AppRegistry, StyleSheet, ActivityIndicator, ListView, Text, View, Alert } from 'react-native';
+
+import dataTournaments from "./data/tournaments.json";
+
+
+
+export default class Myproject extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      isLoading: true
+    }
+  }
+  GetItem(tournament_name) {
+
+    Alert.alert(tournament_name);
+
+  }
+
+  getTournaments() {
+
+    let ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });
+    this.setState({
+      isLoading: false,
+      dataSource: ds.cloneWithRows(dataTournaments),
+    }, function () {
+      // In this block you can do something with new state.
+    });
+
+  }
+
+  componentDidMount() {
+    return this.getTournaments();
+  }
+
+  ListViewItemSeparator = () => {
     return (
-      <View style={styles.container}>
-        <Text style={styles.title}>Brunos zicass</Text>
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
+      <View
+        style={{
+          height: .5,
+          width: "100%",
+          backgroundColor: "#000",
+        }}
+      />
+    );
+  }
+
+  render() {
+    if (this.state.isLoading) {
+      return (
+        <View style={{ flex: 1, paddingTop: 20 }}>
+          <ActivityIndicator />
+        </View>
+      );
+    }
+
+    return (
+
+      <View style={styles.MainContainer}>
+
+        <ListView
+
+          dataSource={this.state.dataSource}
+
+          renderSeparator={this.ListViewItemSeparator}
+
+          renderRow={(rowData) => <Text style={styles.rowViewContainer}
+            onPress={this.GetItem.bind(this, rowData.tournament_name)} >{rowData.tournament_name}</Text>}
+
+        />
+
       </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
+
+  MainContainer: {
+
+    // Setting up View inside content in Vertically center.
     justifyContent: 'center',
+    flex: 1,
+    margin: 10
+
   },
-  title: {
-    fontSize: 21
+
+  rowViewContainer: {
+    fontSize: 20,
+    paddingRight: 10,
+    paddingTop: 10,
+    paddingBottom: 10,
   }
+
 });

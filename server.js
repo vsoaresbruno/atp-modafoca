@@ -13,32 +13,30 @@ app.get('/scrape', function (req, res) {
       var $ = cheerio.load(html);
 
       var title, release, date, tournaments;
-      var json = { tournaments: { months: [] }, title: "", date: "" };
+      var json = [{ "month": "", "tournament_name": "", "tournament_city": "" }];
 
       $(".accordion-label").each(function (index) {
 
         var data = $(this),
           tournament = $('.tourney-result'),
           monthFormat = data.text().trim().split(" "),
-          tournamentTitle = [],
-          tournamentCity = [];
-
+          tournament_city,
+          tournament_name;
 
         data.siblings('.centered-content-wrapper').find('.tourney-result.tourney-result').each(function (index) {
 
-          tournaCity = $(this).find('.tourney-location').text().trim();
-          tournaTitle = $(this).find('.tourney-title').text().trim();
-          tournamentTitle.push(tournaTitle);
-          tournamentCity.push(tournaCity);
+          tournament_city = $(this).find('.tourney-location').text().trim();
+          tournament_name = $(this).find('.tourney-title').text().trim();
+
+          json.push({ month: monthFormat[0], tournament_name: tournament_name, tournament_city: tournament_city });
         });
 
 
-        var monthName = monthFormat[0],
-          month = {};
-        month[monthName] = { tournament: { tournamentTitle, tournamentCity } };
+        // var monthName = monthFormat[0],
+        // month = {};
+        // month[monthName] = { tournament_name, tournamentCity };
 
-        json.tournaments.months.push(month);
-        // json.tournaments.months.push({ month: monthFormat[0], tournament: { tournamentTitle, tournamentCity } });
+        // json.tournaments.months.push(month);
 
       });
 
@@ -60,7 +58,7 @@ app.get('/scrape', function (req, res) {
 
     }
 
-    fs.writeFile('tournaments.json', JSON.stringify(json, null, 4), function (err) {
+    fs.writeFile('data/tournaments.json', JSON.stringify(json, null, 4), function (err) {
       console.log('File successfully written! - Check your project directory for the output.json file');
     })
 

@@ -1,0 +1,367 @@
+[
+    {
+        "month": "",
+        "tournament_name": "",
+        "tournament_city": ""
+    },
+    {
+        "month": "December",
+        "tournament_name": "Brisbane International presented by Suncorp",
+        "tournament_city": "Brisbane, Australia"
+    },
+    {
+        "month": "January",
+        "tournament_name": "Qatar ExxonMobil Open",
+        "tournament_city": "Doha, Qatar"
+    },
+    {
+        "month": "January",
+        "tournament_name": "Tata Open Maharashtra",
+        "tournament_city": "Pune, India"
+    },
+    {
+        "month": "January",
+        "tournament_name": "Sydney International",
+        "tournament_city": "Sydney, Australia"
+    },
+    {
+        "month": "January",
+        "tournament_name": "ASB Classic",
+        "tournament_city": "Auckland, New Zealand"
+    },
+    {
+        "month": "January",
+        "tournament_name": "Australian Open",
+        "tournament_city": "Melbourne, Australia"
+    },
+    {
+        "month": "February",
+        "tournament_name": "Davis Cup First Round",
+        "tournament_city": "Multiple Locations"
+    },
+    {
+        "month": "February",
+        "tournament_name": "Diema Xtra Sofia Open",
+        "tournament_city": "Sofia, Bulgaria"
+    },
+    {
+        "month": "February",
+        "tournament_name": "Ecuador Open",
+        "tournament_city": "Quito, Ecuador"
+    },
+    {
+        "month": "February",
+        "tournament_name": "Open Sud de France",
+        "tournament_city": "Montpellier, France"
+    },
+    {
+        "month": "February",
+        "tournament_name": "ABN Amro World Tennis Tournament",
+        "tournament_city": "Rotterdam, Netherlands"
+    },
+    {
+        "month": "February",
+        "tournament_name": "New York Open",
+        "tournament_city": "New York, United States"
+    },
+    {
+        "month": "February",
+        "tournament_name": "Argentina Open",
+        "tournament_city": "Buenos Aires, Argentina"
+    },
+    {
+        "month": "February",
+        "tournament_name": "Rio Open presented by Claro",
+        "tournament_city": "Rio de Janeiro, Brazil"
+    },
+    {
+        "month": "February",
+        "tournament_name": "Open 13 Provence",
+        "tournament_city": "Marseille, France"
+    },
+    {
+        "month": "February",
+        "tournament_name": "Delray Beach Open",
+        "tournament_city": "Delray Beach, FL, U.S.A."
+    },
+    {
+        "month": "February",
+        "tournament_name": "Dubai Duty Free Tennis Championships",
+        "tournament_city": "Dubai, U.A.E."
+    },
+    {
+        "month": "February",
+        "tournament_name": "Abierto Mexicano Telcel presentado por HSBC",
+        "tournament_city": "Acapulco, Mexico"
+    },
+    {
+        "month": "February",
+        "tournament_name": "Brasil Open",
+        "tournament_city": "Sao Paulo, Brazil, Brazil"
+    },
+    {
+        "month": "March",
+        "tournament_name": "BNP Paribas Open",
+        "tournament_city": "Indian Wells, CA, U.S.A."
+    },
+    {
+        "month": "March",
+        "tournament_name": "Miami Open presented by Itaú",
+        "tournament_city": "Miami, FL, U.S.A."
+    },
+    {
+        "month": "April",
+        "tournament_name": "Davis Cup Quarter-Finals",
+        "tournament_city": "Multiple Locations"
+    },
+    {
+        "month": "April",
+        "tournament_name": "Fayez Sarofim & Co. U.S. Men’s Clay Court Championship",
+        "tournament_city": "Houston, TX, U.S.A."
+    },
+    {
+        "month": "April",
+        "tournament_name": "Grand Prix Hassan II",
+        "tournament_city": "Marrakech, Morocco"
+    },
+    {
+        "month": "April",
+        "tournament_name": "Rolex Monte-Carlo Masters",
+        "tournament_city": "Monte Carlo, Monaco"
+    },
+    {
+        "month": "April",
+        "tournament_name": "Barcelona Open Banc Sabadell",
+        "tournament_city": "Barcelona, Spain"
+    },
+    {
+        "month": "April",
+        "tournament_name": "Gazprom Hungarian Open",
+        "tournament_city": "Budapest, Hungary"
+    },
+    {
+        "month": "April",
+        "tournament_name": "BMW Open by FWU",
+        "tournament_city": "Munich, Germany"
+    },
+    {
+        "month": "April",
+        "tournament_name": "Millennium Estoril Open",
+        "tournament_city": "Estoril, Portugal"
+    },
+    {
+        "month": "April",
+        "tournament_name": "TEB BNP Paribas Istanbul Open",
+        "tournament_city": "Istanbul, Turkey"
+    },
+    {
+        "month": "May",
+        "tournament_name": "Mutua Madrid Open",
+        "tournament_city": "Madrid, Spain"
+    },
+    {
+        "month": "May",
+        "tournament_name": "Internazionali BNL d’Italia",
+        "tournament_city": "Rome, Italy"
+    },
+    {
+        "month": "May",
+        "tournament_name": "Banque Eric Sturdza Geneva Open",
+        "tournament_city": "Geneva, Switzerland"
+    },
+    {
+        "month": "May",
+        "tournament_name": "Open Parc Auvergne-Rhône-Alpes Lyon",
+        "tournament_city": "Lyon, France"
+    },
+    {
+        "month": "May",
+        "tournament_name": "Roland Garros",
+        "tournament_city": "Paris, France"
+    },
+    {
+        "month": "June",
+        "tournament_name": "Mercedes Cup",
+        "tournament_city": "Stuttgart, Germany"
+    },
+    {
+        "month": "June",
+        "tournament_name": "Ricoh Open",
+        "tournament_city": "s-Hertogenbosch, Netherlands"
+    },
+    {
+        "month": "June",
+        "tournament_name": "Gerry Weber Open",
+        "tournament_city": "Halle, Germany"
+    },
+    {
+        "month": "June",
+        "tournament_name": "The Queen's Club Championships",
+        "tournament_city": "London, Great Britain"
+    },
+    {
+        "month": "June",
+        "tournament_name": "Antalya Open",
+        "tournament_city": "Antalya, Turkey"
+    },
+    {
+        "month": "June",
+        "tournament_name": "Eastbourne International",
+        "tournament_city": "Eastbourne, Great Britain"
+    },
+    {
+        "month": "July",
+        "tournament_name": "Wimbledon",
+        "tournament_city": "London, Great Britain"
+    },
+    {
+        "month": "July",
+        "tournament_name": "Dell Technologies Hall of Fame Open",
+        "tournament_city": "Newport, RI, U.S.A."
+    },
+    {
+        "month": "July",
+        "tournament_name": "Plava Laguna Croatia Open Umag",
+        "tournament_city": "Umag, Croatia"
+    },
+    {
+        "month": "July",
+        "tournament_name": "SkiStar Swedish Open",
+        "tournament_city": "Bastad, Sweden"
+    },
+    {
+        "month": "July",
+        "tournament_name": "German Tennis Championships 2018",
+        "tournament_city": "Hamburg, Germany"
+    },
+    {
+        "month": "July",
+        "tournament_name": "BB&T Atlanta Open",
+        "tournament_city": "Atlanta, GA, U.S.A."
+    },
+    {
+        "month": "July",
+        "tournament_name": "J. Safra Sarasin Swiss Open Gstaad",
+        "tournament_city": "Gstaad, Switzerland"
+    },
+    {
+        "month": "July",
+        "tournament_name": "Citi Open",
+        "tournament_city": "Washington, DC, U.S.A."
+    },
+    {
+        "month": "July",
+        "tournament_name": "Abierto Mexicano de Tenis Mifel presentado por Cinemex",
+        "tournament_city": "Los Cabos, Mexico"
+    },
+    {
+        "month": "July",
+        "tournament_name": "Generali Open",
+        "tournament_city": "Kitzbuhel, Austria"
+    },
+    {
+        "month": "August",
+        "tournament_name": "Rogers Cup",
+        "tournament_city": "Toronto, Canada"
+    },
+    {
+        "month": "August",
+        "tournament_name": "Western & Southern Open",
+        "tournament_city": "Cincinnati, OH, U.S.A."
+    },
+    {
+        "month": "August",
+        "tournament_name": "Winston-Salem Open",
+        "tournament_city": "Winston-Salem, NC, U.S.A."
+    },
+    {
+        "month": "August",
+        "tournament_name": "US Open",
+        "tournament_city": "New York, NY, U.S.A."
+    },
+    {
+        "month": "September",
+        "tournament_name": "Davis Cup Semi-Finals",
+        "tournament_city": "Multiple Locations"
+    },
+    {
+        "month": "September",
+        "tournament_name": "St. Petersburg Open",
+        "tournament_city": "St. Petersburg, Russia"
+    },
+    {
+        "month": "September",
+        "tournament_name": "Moselle Open",
+        "tournament_city": "Metz, France"
+    },
+    {
+        "month": "September",
+        "tournament_name": "Chengdu Open",
+        "tournament_city": "Chengdu, China"
+    },
+    {
+        "month": "September",
+        "tournament_name": "Shenzhen Open",
+        "tournament_city": "Shenzhen, China"
+    },
+    {
+        "month": "October",
+        "tournament_name": "China Open",
+        "tournament_city": "Beijing, China"
+    },
+    {
+        "month": "October",
+        "tournament_name": "Rakuten Japan Open Tennis Championships 2018",
+        "tournament_city": "Tokyo, Japan"
+    },
+    {
+        "month": "October",
+        "tournament_name": "Rolex Shanghai Masters",
+        "tournament_city": "Shanghai, China"
+    },
+    {
+        "month": "October",
+        "tournament_name": "VTB Kremlin Cup",
+        "tournament_city": "Moscow, Russia"
+    },
+    {
+        "month": "October",
+        "tournament_name": "European Open",
+        "tournament_city": "Antwerp, Belgium"
+    },
+    {
+        "month": "October",
+        "tournament_name": "Intrum Stockholm Open",
+        "tournament_city": "Stockholm, Sweden"
+    },
+    {
+        "month": "October",
+        "tournament_name": "Erste Bank Open 500",
+        "tournament_city": "Vienna, Austria"
+    },
+    {
+        "month": "October",
+        "tournament_name": "Swiss Indoors Basel",
+        "tournament_city": "Basel, Switzerland"
+    },
+    {
+        "month": "October",
+        "tournament_name": "Rolex Paris Masters",
+        "tournament_city": "Paris, France"
+    },
+    {
+        "month": "November",
+        "tournament_name": "Next Gen ATP Finals",
+        "tournament_city": "Milan, Italy"
+    },
+    {
+        "month": "November",
+        "tournament_name": "Nitto ATP Finals",
+        "tournament_city": "London, Great Britain"
+    },
+    {
+        "month": "November",
+        "tournament_name": "Davis Cup Final",
+        "tournament_city": "Multiple Locations"
+    }
+]
