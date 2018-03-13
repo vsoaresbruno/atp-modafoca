@@ -1,10 +1,18 @@
 import React, { Component } from "react";
 
-import { AppRegistry, StyleSheet, ActivityIndicator, ListView, Text, View, Alert } from 'react-native';
+import {
+  AppRegistry,
+  StyleSheet,
+  ActivityIndicator,
+  ListView,
+  Text,
+  View,
+  Alert,
+  Image
+} from 'react-native';
 
 import dataTournaments from "./data/tournaments.json";
-
-
+import statusBar from "./components/statusBar";
 
 export default class Myproject extends Component {
 
@@ -14,6 +22,7 @@ export default class Myproject extends Component {
       isLoading: true
     }
   }
+
   GetItem(tournament_name) {
 
     Alert.alert(tournament_name);
@@ -51,25 +60,35 @@ export default class Myproject extends Component {
   render() {
     if (this.state.isLoading) {
       return (
-        <View style={{ flex: 1, paddingTop: 20 }}>
+        <View style={{ flex: 1 }}>
           <ActivityIndicator />
         </View>
       );
     }
-
     return (
 
       <View style={styles.MainContainer}>
+        <MyStatusBar color="#000" backgroundColor="#00aeef" barStyle="light-content" />
 
         <ListView
-
+          style={styles.listContainer}
           dataSource={this.state.dataSource}
 
           renderSeparator={this.ListViewItemSeparator}
 
-          renderRow={(rowData) => <Text style={styles.rowViewContainer}
-            onPress={this.GetItem.bind(this, rowData.tournament_name)} >{rowData.tournament_name}</Text>}
-
+          renderRow={
+            (rowData) =>
+              <View style={styles.rowViewContainer}>
+                <Image
+                  source={require('./images/categorystamps_1000.png')}
+                  style={{ height: 60 }} resizeMode="contain"
+                />
+                <View style={styles.tournamentInfo}>
+                  <View><Text onPress={this.GetItem.bind(this, rowData.tournament_name)} style={styles.rowTournament}>{rowData.tournament_name}</Text></View>
+                  <View><Text onPress={this.GetItem.bind(this, rowData.tournament_name)} style={styles.rowCity}>{rowData.tournament_city}</Text></View>
+                </View>
+              </View>
+          }
         />
 
       </View>
@@ -80,16 +99,44 @@ export default class Myproject extends Component {
 const styles = StyleSheet.create({
 
   MainContainer: {
-
     // Setting up View inside content in Vertically center.
     justifyContent: 'center',
     flex: 1,
-    margin: 10
-
   },
 
-  rowViewContainer: {
+  listContainer: {
+    margin: 10
+  },
+
+  rowTournament: {
     fontSize: 20,
+    fontWeight: 'bold',
+    color: '#00aeef',
+    flex: 1,
+    marginBottom: 3,
+  },
+
+  tournamentBadge: {
+    flex: 1,
+    backgroundColor: 'red',
+    marginRight: 5,
+    width: 40,
+    height: 40
+  },
+  tournamentInfo: {
+    flex: 2,
+  },
+
+  rowCity: {
+    fontSize: 18,
+    color: "#000",
+    fontWeight: 'normal',
+    flex: 1,
+  },
+
+
+  rowViewContainer: {
+    flexDirection: 'row',
     paddingRight: 10,
     paddingTop: 10,
     paddingBottom: 10,

@@ -1,367 +1,434 @@
 [
     {
-        "month": "",
-        "tournament_name": "",
-        "tournament_city": ""
-    },
-    {
         "month": "December",
         "tournament_name": "Brisbane International presented by Suncorp",
-        "tournament_city": "Brisbane, Australia"
+        "tournament_city": "Brisbane, Australia",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "January",
         "tournament_name": "Qatar ExxonMobil Open",
-        "tournament_city": "Doha, Qatar"
+        "tournament_city": "Doha, Qatar",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "January",
         "tournament_name": "Tata Open Maharashtra",
-        "tournament_city": "Pune, India"
+        "tournament_city": "Pune, India",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "January",
         "tournament_name": "Sydney International",
-        "tournament_city": "Sydney, Australia"
+        "tournament_city": "Sydney, Australia",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "January",
         "tournament_name": "ASB Classic",
-        "tournament_city": "Auckland, New Zealand"
+        "tournament_city": "Auckland, New Zealand",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "January",
         "tournament_name": "Australian Open",
-        "tournament_city": "Melbourne, Australia"
+        "tournament_city": "Melbourne, Australia",
+        "tournament_badge": "images/categorystamps_grandslam.png"
     },
     {
         "month": "February",
         "tournament_name": "Davis Cup First Round",
-        "tournament_city": "Multiple Locations"
+        "tournament_city": "Multiple Locations",
+        "tournament_badge": "images/categorystamps_itf.png"
     },
     {
         "month": "February",
         "tournament_name": "Diema Xtra Sofia Open",
-        "tournament_city": "Sofia, Bulgaria"
+        "tournament_city": "Sofia, Bulgaria",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "February",
         "tournament_name": "Ecuador Open",
-        "tournament_city": "Quito, Ecuador"
+        "tournament_city": "Quito, Ecuador",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "February",
         "tournament_name": "Open Sud de France",
-        "tournament_city": "Montpellier, France"
+        "tournament_city": "Montpellier, France",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "February",
         "tournament_name": "ABN Amro World Tennis Tournament",
-        "tournament_city": "Rotterdam, Netherlands"
+        "tournament_city": "Rotterdam, Netherlands",
+        "tournament_badge": "images/categorystamps_500.png"
     },
     {
         "month": "February",
         "tournament_name": "New York Open",
-        "tournament_city": "New York, United States"
+        "tournament_city": "New York, United States",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "February",
         "tournament_name": "Argentina Open",
-        "tournament_city": "Buenos Aires, Argentina"
+        "tournament_city": "Buenos Aires, Argentina",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "February",
         "tournament_name": "Rio Open presented by Claro",
-        "tournament_city": "Rio de Janeiro, Brazil"
+        "tournament_city": "Rio de Janeiro, Brazil",
+        "tournament_badge": "images/categorystamps_500.png"
     },
     {
         "month": "February",
         "tournament_name": "Open 13 Provence",
-        "tournament_city": "Marseille, France"
+        "tournament_city": "Marseille, France",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "February",
         "tournament_name": "Delray Beach Open",
-        "tournament_city": "Delray Beach, FL, U.S.A."
+        "tournament_city": "Delray Beach, FL, U.S.A.",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "February",
         "tournament_name": "Dubai Duty Free Tennis Championships",
-        "tournament_city": "Dubai, U.A.E."
+        "tournament_city": "Dubai, U.A.E.",
+        "tournament_badge": "images/categorystamps_500.png"
     },
     {
         "month": "February",
         "tournament_name": "Abierto Mexicano Telcel presentado por HSBC",
-        "tournament_city": "Acapulco, Mexico"
+        "tournament_city": "Acapulco, Mexico",
+        "tournament_badge": "images/categorystamps_500.png"
     },
     {
         "month": "February",
         "tournament_name": "Brasil Open",
-        "tournament_city": "Sao Paulo, Brazil, Brazil"
+        "tournament_city": "Sao Paulo, Brazil, Brazil",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "March",
         "tournament_name": "BNP Paribas Open",
-        "tournament_city": "Indian Wells, CA, U.S.A."
+        "tournament_city": "Indian Wells, CA, U.S.A.",
+        "tournament_badge": "images/categorystamps_1000.png"
     },
     {
         "month": "March",
         "tournament_name": "Miami Open presented by Itaú",
-        "tournament_city": "Miami, FL, U.S.A."
+        "tournament_city": "Miami, FL, U.S.A.",
+        "tournament_badge": "images/categorystamps_1000.png"
     },
     {
         "month": "April",
         "tournament_name": "Davis Cup Quarter-Finals",
-        "tournament_city": "Multiple Locations"
+        "tournament_city": "Multiple Locations",
+        "tournament_badge": "images/categorystamps_itf.png"
     },
     {
         "month": "April",
         "tournament_name": "Fayez Sarofim & Co. U.S. Men’s Clay Court Championship",
-        "tournament_city": "Houston, TX, U.S.A."
+        "tournament_city": "Houston, TX, U.S.A.",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "April",
         "tournament_name": "Grand Prix Hassan II",
-        "tournament_city": "Marrakech, Morocco"
+        "tournament_city": "Marrakech, Morocco",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "April",
         "tournament_name": "Rolex Monte-Carlo Masters",
-        "tournament_city": "Monte Carlo, Monaco"
+        "tournament_city": "Monte Carlo, Monaco",
+        "tournament_badge": "images/categorystamps_1000.png"
     },
     {
         "month": "April",
         "tournament_name": "Barcelona Open Banc Sabadell",
-        "tournament_city": "Barcelona, Spain"
+        "tournament_city": "Barcelona, Spain",
+        "tournament_badge": "images/categorystamps_500.png"
     },
     {
         "month": "April",
         "tournament_name": "Gazprom Hungarian Open",
-        "tournament_city": "Budapest, Hungary"
+        "tournament_city": "Budapest, Hungary",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "April",
         "tournament_name": "BMW Open by FWU",
-        "tournament_city": "Munich, Germany"
+        "tournament_city": "Munich, Germany",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "April",
         "tournament_name": "Millennium Estoril Open",
-        "tournament_city": "Estoril, Portugal"
+        "tournament_city": "Estoril, Portugal",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "April",
         "tournament_name": "TEB BNP Paribas Istanbul Open",
-        "tournament_city": "Istanbul, Turkey"
+        "tournament_city": "Istanbul, Turkey",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "May",
         "tournament_name": "Mutua Madrid Open",
-        "tournament_city": "Madrid, Spain"
+        "tournament_city": "Madrid, Spain",
+        "tournament_badge": "images/categorystamps_1000.png"
     },
     {
         "month": "May",
         "tournament_name": "Internazionali BNL d’Italia",
-        "tournament_city": "Rome, Italy"
+        "tournament_city": "Rome, Italy",
+        "tournament_badge": "images/categorystamps_1000.png"
     },
     {
         "month": "May",
         "tournament_name": "Banque Eric Sturdza Geneva Open",
-        "tournament_city": "Geneva, Switzerland"
+        "tournament_city": "Geneva, Switzerland",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "May",
         "tournament_name": "Open Parc Auvergne-Rhône-Alpes Lyon",
-        "tournament_city": "Lyon, France"
+        "tournament_city": "Lyon, France",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "May",
         "tournament_name": "Roland Garros",
-        "tournament_city": "Paris, France"
+        "tournament_city": "Paris, France",
+        "tournament_badge": "images/categorystamps_grandslam.png"
     },
     {
         "month": "June",
         "tournament_name": "Mercedes Cup",
-        "tournament_city": "Stuttgart, Germany"
+        "tournament_city": "Stuttgart, Germany",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "June",
         "tournament_name": "Ricoh Open",
-        "tournament_city": "s-Hertogenbosch, Netherlands"
+        "tournament_city": "s-Hertogenbosch, Netherlands",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "June",
         "tournament_name": "Gerry Weber Open",
-        "tournament_city": "Halle, Germany"
+        "tournament_city": "Halle, Germany",
+        "tournament_badge": "images/categorystamps_500.png"
     },
     {
         "month": "June",
         "tournament_name": "The Queen's Club Championships",
-        "tournament_city": "London, Great Britain"
+        "tournament_city": "London, Great Britain",
+        "tournament_badge": "images/categorystamps_500.png"
     },
     {
         "month": "June",
         "tournament_name": "Antalya Open",
-        "tournament_city": "Antalya, Turkey"
+        "tournament_city": "Antalya, Turkey",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "June",
         "tournament_name": "Eastbourne International",
-        "tournament_city": "Eastbourne, Great Britain"
+        "tournament_city": "Eastbourne, Great Britain",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "July",
         "tournament_name": "Wimbledon",
-        "tournament_city": "London, Great Britain"
+        "tournament_city": "London, Great Britain",
+        "tournament_badge": "images/categorystamps_grandslam.png"
     },
     {
         "month": "July",
         "tournament_name": "Dell Technologies Hall of Fame Open",
-        "tournament_city": "Newport, RI, U.S.A."
+        "tournament_city": "Newport, RI, U.S.A.",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "July",
         "tournament_name": "Plava Laguna Croatia Open Umag",
-        "tournament_city": "Umag, Croatia"
+        "tournament_city": "Umag, Croatia",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "July",
         "tournament_name": "SkiStar Swedish Open",
-        "tournament_city": "Bastad, Sweden"
+        "tournament_city": "Bastad, Sweden",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "July",
         "tournament_name": "German Tennis Championships 2018",
-        "tournament_city": "Hamburg, Germany"
+        "tournament_city": "Hamburg, Germany",
+        "tournament_badge": "images/categorystamps_500.png"
     },
     {
         "month": "July",
         "tournament_name": "BB&T Atlanta Open",
-        "tournament_city": "Atlanta, GA, U.S.A."
+        "tournament_city": "Atlanta, GA, U.S.A.",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "July",
         "tournament_name": "J. Safra Sarasin Swiss Open Gstaad",
-        "tournament_city": "Gstaad, Switzerland"
+        "tournament_city": "Gstaad, Switzerland",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "July",
         "tournament_name": "Citi Open",
-        "tournament_city": "Washington, DC, U.S.A."
+        "tournament_city": "Washington, DC, U.S.A.",
+        "tournament_badge": "images/categorystamps_500.png"
     },
     {
         "month": "July",
         "tournament_name": "Abierto Mexicano de Tenis Mifel presentado por Cinemex",
-        "tournament_city": "Los Cabos, Mexico"
+        "tournament_city": "Los Cabos, Mexico",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "July",
         "tournament_name": "Generali Open",
-        "tournament_city": "Kitzbuhel, Austria"
+        "tournament_city": "Kitzbuhel, Austria",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "August",
         "tournament_name": "Rogers Cup",
-        "tournament_city": "Toronto, Canada"
+        "tournament_city": "Toronto, Canada",
+        "tournament_badge": "images/categorystamps_1000.png"
     },
     {
         "month": "August",
         "tournament_name": "Western & Southern Open",
-        "tournament_city": "Cincinnati, OH, U.S.A."
+        "tournament_city": "Cincinnati, OH, U.S.A.",
+        "tournament_badge": "images/categorystamps_1000.png"
     },
     {
         "month": "August",
         "tournament_name": "Winston-Salem Open",
-        "tournament_city": "Winston-Salem, NC, U.S.A."
+        "tournament_city": "Winston-Salem, NC, U.S.A.",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "August",
         "tournament_name": "US Open",
-        "tournament_city": "New York, NY, U.S.A."
+        "tournament_city": "New York, NY, U.S.A.",
+        "tournament_badge": "images/categorystamps_grandslam.png"
     },
     {
         "month": "September",
         "tournament_name": "Davis Cup Semi-Finals",
-        "tournament_city": "Multiple Locations"
+        "tournament_city": "Multiple Locations",
+        "tournament_badge": "images/categorystamps_itf.png"
     },
     {
         "month": "September",
         "tournament_name": "St. Petersburg Open",
-        "tournament_city": "St. Petersburg, Russia"
+        "tournament_city": "St. Petersburg, Russia",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "September",
         "tournament_name": "Moselle Open",
-        "tournament_city": "Metz, France"
+        "tournament_city": "Metz, France",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "September",
         "tournament_name": "Chengdu Open",
-        "tournament_city": "Chengdu, China"
+        "tournament_city": "Chengdu, China",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "September",
         "tournament_name": "Shenzhen Open",
-        "tournament_city": "Shenzhen, China"
+        "tournament_city": "Shenzhen, China",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "October",
         "tournament_name": "China Open",
-        "tournament_city": "Beijing, China"
+        "tournament_city": "Beijing, China",
+        "tournament_badge": "images/categorystamps_500.png"
     },
     {
         "month": "October",
         "tournament_name": "Rakuten Japan Open Tennis Championships 2018",
-        "tournament_city": "Tokyo, Japan"
+        "tournament_city": "Tokyo, Japan",
+        "tournament_badge": "images/categorystamps_500.png"
     },
     {
         "month": "October",
         "tournament_name": "Rolex Shanghai Masters",
-        "tournament_city": "Shanghai, China"
+        "tournament_city": "Shanghai, China",
+        "tournament_badge": "images/categorystamps_1000.png"
     },
     {
         "month": "October",
         "tournament_name": "VTB Kremlin Cup",
-        "tournament_city": "Moscow, Russia"
+        "tournament_city": "Moscow, Russia",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "October",
         "tournament_name": "European Open",
-        "tournament_city": "Antwerp, Belgium"
+        "tournament_city": "Antwerp, Belgium",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "October",
         "tournament_name": "Intrum Stockholm Open",
-        "tournament_city": "Stockholm, Sweden"
+        "tournament_city": "Stockholm, Sweden",
+        "tournament_badge": "images/categorystamps_250.png"
     },
     {
         "month": "October",
         "tournament_name": "Erste Bank Open 500",
-        "tournament_city": "Vienna, Austria"
+        "tournament_city": "Vienna, Austria",
+        "tournament_badge": "images/categorystamps_500.png"
     },
     {
         "month": "October",
         "tournament_name": "Swiss Indoors Basel",
-        "tournament_city": "Basel, Switzerland"
+        "tournament_city": "Basel, Switzerland",
+        "tournament_badge": "images/categorystamps_500.png"
     },
     {
         "month": "October",
         "tournament_name": "Rolex Paris Masters",
-        "tournament_city": "Paris, France"
+        "tournament_city": "Paris, France",
+        "tournament_badge": "images/categorystamps_1000.png"
     },
     {
         "month": "November",
         "tournament_name": "Next Gen ATP Finals",
-        "tournament_city": "Milan, Italy"
+        "tournament_city": "Milan, Italy",
+        "tournament_badge": "images/categorystamps_nextgen.svg"
     },
     {
         "month": "November",
         "tournament_name": "Nitto ATP Finals",
-        "tournament_city": "London, Great Britain"
+        "tournament_city": "London, Great Britain",
+        "tournament_badge": "images/categorystamps_finals.svg"
     },
     {
         "month": "November",
         "tournament_name": "Davis Cup Final",
-        "tournament_city": "Multiple Locations"
+        "tournament_city": "Multiple Locations",
+        "tournament_badge": "images/categorystamps_itf.png"
     }
 ]

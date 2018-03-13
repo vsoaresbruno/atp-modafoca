@@ -13,7 +13,7 @@ app.get('/scrape', function (req, res) {
       var $ = cheerio.load(html);
 
       var title, release, date, tournaments;
-      var json = [{ "month": "", "tournament_name": "", "tournament_city": "" }];
+      var json = [];
 
       $(".accordion-label").each(function (index) {
 
@@ -21,14 +21,17 @@ app.get('/scrape', function (req, res) {
           tournament = $('.tourney-result'),
           monthFormat = data.text().trim().split(" "),
           tournament_city,
-          tournament_name;
+          tournament_name,
+          tournament_badge;
 
         data.siblings('.centered-content-wrapper').find('.tourney-result.tourney-result').each(function (index) {
 
           tournament_city = $(this).find('.tourney-location').text().trim();
           tournament_name = $(this).find('.tourney-title').text().trim();
+          tournament_badge_uri = $(this).find(".tourney-badge-wrapper img").attr('src');
+          tournament_badge = "images/" + tournament_badge_uri.split("/").pop();
 
-          json.push({ month: monthFormat[0], tournament_name: tournament_name, tournament_city: tournament_city });
+          json.push({ month: monthFormat[0], tournament_name: tournament_name, tournament_city: tournament_city, tournament_badge: tournament_badge });
         });
 
 
