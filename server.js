@@ -29,9 +29,12 @@ app.get('/scrape', function (req, res) {
           tournament_city = $(this).find('.tourney-location').text().trim();
           tournament_name = $(this).find('.tourney-title').text().trim();
           tournament_badge_uri = $(this).find(".tourney-badge-wrapper img").attr('src');
-          tournament_badge = "images/" + tournament_badge_uri.split("/").pop();
 
-          json.push({ month: monthFormat[0], tournament_name: tournament_name, tournament_city: tournament_city, tournament_badge: tournament_badge });
+          //TODO
+          tournament_badge = tournament_badge_uri.split("_").pop();
+          tournament_category = tournament_badge.replace(/\.[^/.]+$/, "");
+
+          json.push({ month: monthFormat[0], name: tournament_name, city: tournament_city, category: tournament_category });
         });
 
 
