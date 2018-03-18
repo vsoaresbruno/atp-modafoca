@@ -19,11 +19,12 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "cheerio": "latest",
     "expo": "^25.0.0",
+    "express": "latest",
     "react": "16.2.0",
     "react-native": "0.52.0",
-    "express": "latest",
-    "request": "latest",
-    "cheerio": "latest"
+    "react-navigation": "^1.5.8",
+    "request": "latest"
   }
 }

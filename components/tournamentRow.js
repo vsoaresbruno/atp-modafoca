@@ -4,11 +4,18 @@ import {
     Text,
     StyleSheet,
     Alert,
-    Image
+    Image,
+    TouchableHighlight,
 } from 'react-native';
 
+// import { StackNavigator } from 'react-navigation';
+
 getItem = (tournament_name) => {
-    Alert.alert(tournament_name);
+    // Alert.alert(tournament_name);
+    const { navigate } = this.props.navigation;
+
+    navigate('Second', { ListViewClickItemHolder: tournament_name });
+    console.log(tournament_name)
 }
 
 getBadge = (badge) => {
@@ -27,30 +34,34 @@ getBadge = (badge) => {
             return require('../images/categorystamps_itf.png');
         case 'grandslam':
             return require('../images/categorystamps_grandslam.png');
+        default:
+            return require('../images/categorystamps_250.png');
     }
 }
 
 export default Row = (props) => (
-    <View style={styles.rowViewContainer}>
-        <Image
-            source={this.getBadge(props.category)}
-            style={{ height: 60 }} resizeMode="contain"
-        />
-        <View style={styles.tournamentInfo}>
-            <View>
-                <Text
-                    onPress={this.getItem.bind(this, props.name)}
-                    style={styles.rowTournament}>{props.name}
-                </Text>
+    <TouchableHighlight onPress={this.getItem.bind(this, props.name)}>
+        <View style={styles.rowViewContainer}>
+            <View style={styles.tournamentImg}>
+                <Image
+                    source={this.getBadge(props.category)}
+                    style={{ height: 60 }} resizeMode="contain"
+                />
             </View>
-            <View>
-                <Text
-                    onPress={this.getItem.bind(this, props.name)}
-                    style={styles.rowCity}>{props.city}
-                </Text>
+            <View style={styles.tournamentInfo}>
+                <View>
+                    <Text
+                        style={styles.rowTournament}>{props.name}
+                    </Text>
+                </View>
+                <View>
+                    <Text
+                        style={styles.rowCity}>{props.city}
+                    </Text>
+                </View>
             </View>
         </View>
-    </View>
+    </TouchableHighlight>
 );
 
 const styles = StyleSheet.create({
@@ -65,25 +76,21 @@ const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: 'bold',
         color: '#00aeef',
-        flex: 1,
         marginBottom: 3,
-    },
-
-    tournamentBadge: {
-        flex: 1,
-        backgroundColor: 'red',
-        marginRight: 5,
-        width: 40,
-        height: 40
-    },
-    tournamentInfo: {
-        flex: 2,
     },
 
     rowCity: {
         fontSize: 18,
         color: "#000",
         fontWeight: 'normal',
+    },
+
+    tournamentImg: {
+        alignItems: 'flex-start',
+        justifyContent: 'space-between',
+    },
+
+    tournamentInfo: {
         flex: 1,
     },
 });

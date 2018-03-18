@@ -1,6 +1,6 @@
 [
     {
-        "_id": "/en/scores/archive/brisbane/339/2017/results",
+        "_id": "339",
         "month": "Brisbane\n\t\t\t\n\t\t\n\t\t\n\t\t\tBrisbane,",
         "name": "Brisbane",
         "location": "Brisbane, Australia",
@@ -14,7 +14,7 @@
         "doubles_winner_2_name": "Jordan Thompson"
     },
     {
-        "_id": "/en/scores/archive/doha/451/2017/results",
+        "_id": "451",
         "month": "Doha\n\t\t\t\n\t\t\n\t\t\n\t\t\tDoha,",
         "name": "Doha",
         "location": "Doha, Qatar",
@@ -28,7 +28,7 @@
         "doubles_winner_2_name": "Fabrice Martin"
     },
     {
-        "_id": "/en/scores/archive/chennai/891/2017/results",
+        "_id": "891",
         "month": "Chennai\n\t\t\t\n\t\t\n\t\t\n\t\t\tChennai,",
         "name": "Chennai",
         "location": "Chennai, India",
@@ -42,7 +42,7 @@
         "doubles_winner_2_name": "Jeevan Nedunchezhiyan"
     },
     {
-        "_id": "/en/scores/archive/sydney/338/2017/results",
+        "_id": "338",
         "month": "Sydney\n\t\t\t\n\t\t\n\t\t\n\t\t\tSydney,",
         "name": "Sydney",
         "location": "Sydney, Australia",
@@ -56,7 +56,7 @@
         "doubles_winner_2_name": "Matwe Middelkoop"
     },
     {
-        "_id": "/en/scores/archive/auckland/301/2017/results",
+        "_id": "301",
         "month": "Auckland\n\t\t\t\n\t\t\n\t\t\n\t\t\tAuckland,",
         "name": "Auckland",
         "location": "Auckland, New Zealand",
@@ -70,7 +70,7 @@
         "doubles_winner_2_name": "Aisam-Ul-Haq Qureshi"
     },
     {
-        "_id": "/en/scores/archive/australian-open/580/2017/results",
+        "_id": "580",
         "month": "Australian",
         "name": "Australian Open",
         "location": "Melbourne, Australia",
@@ -84,6 +84,7 @@
         "doubles_winner_2_name": "John Peers"
     },
     {
+        "_id": "580",
         "month": "Davis",
         "name": "Davis Cup First Round",
         "location": "",
@@ -95,7 +96,7 @@
         "singles_winner_name": ""
     },
     {
-        "_id": "/en/scores/archive/montpellier/375/2017/results",
+        "_id": "375",
         "month": "Montpellier\n\t\t\t\n\t\t\n\t\t\n\t\t\tMontpellier,",
         "name": "Montpellier",
         "location": "Montpellier, France",
@@ -109,7 +110,7 @@
         "doubles_winner_2_name": "Alexander Zverev"
     },
     {
-        "_id": "/en/scores/archive/quito/7161/2017/results",
+        "_id": "7161",
         "month": "Quito\n\t\t\t\n\t\t\n\t\t\n\t\t\tQuito,",
         "name": "Quito",
         "location": "Quito, Ecuador",
@@ -123,7 +124,7 @@
         "doubles_winner_2_name": "Philipp Oswald"
     },
     {
-        "_id": "/en/scores/archive/sofia/7434/2017/results",
+        "_id": "7434",
         "month": "Sofia\n\t\t\t\n\t\t\n\t\t\n\t\t\tSofia,",
         "name": "Sofia",
         "location": "Sofia, Bulgaria",
@@ -137,7 +138,7 @@
         "doubles_winner_2_name": "Nenad Zimonjic"
     },
     {
-        "_id": "/en/scores/archive/rotterdam/407/2017/results",
+        "_id": "407",
         "month": "Rotterdam\n\t\t\t\n\t\t\n\t\t\n\t\t\tRotterdam,",
         "name": "Rotterdam",
         "location": "Rotterdam, Netherlands",
@@ -151,7 +152,7 @@
         "doubles_winner_2_name": "Marcel Granollers"
     },
     {
-        "_id": "/en/scores/archive/memphis/424/2017/results",
+        "_id": "424",
         "month": "Memphis\n\t\t\t\n\t\t\n\t\t\n\t\t\tMemphis,",
         "name": "Memphis",
         "location": "Memphis, United States",
@@ -165,7 +166,7 @@
         "doubles_winner_2_name": "Nikola Mektic"
     },
     {
-        "_id": "/en/scores/archive/buenos-aires/506/2017/results",
+        "_id": "506",
         "month": "Buenos",
         "name": "Buenos Aires",
         "location": "Buenos Aires, Argentina",
@@ -179,7 +180,7 @@
         "doubles_winner_2_name": "Robert Farah"
     },
     {
-        "_id": "/en/scores/archive/rio-de-janeiro/6932/2017/results",
+        "_id": "6932",
         "month": "Rio",
         "name": "Rio de Janeiro",
         "location": "Rio de Janeiro, Brazil",
@@ -193,7 +194,7 @@
         "doubles_winner_2_name": "Pablo Carreno Busta"
     },
     {
-        "_id": "/en/scores/archive/marseille/496/2017/results",
+        "_id": "496",
         "month": "Marseille\n\t\t\t\n\t\t\n\t\t\n\t\t\tMarseille,",
         "name": "Marseille",
         "location": "Marseille, France",
@@ -207,7 +208,7 @@
         "doubles_winner_2_name": "Nicolas Mahut"
     },
     {
-        "_id": "/en/scores/archive/delray-beach/499/2017/results",
+        "_id": "499",
         "month": "Delray",
         "name": "Delray Beach",
         "location": "Delray Beach, United States",
@@ -221,7 +222,7 @@
         "doubles_winner_2_name": "Rajeev Ram"
     },
     {
-        "_id": "/en/scores/archive/dubai/495/2017/results",
+        "_id": "495",
         "month": "Dubai\n\t\t\t\n\t\t\n\t\t\n\t\t\tDubai,",
         "name": "Dubai",
         "location": "Dubai, United Arab Emirates",
@@ -235,7 +236,7 @@
         "doubles_winner_2_name": "Horia Tecau"
     },
     {
-        "_id": "/en/scores/archive/acapulco/807/2017/results",
+        "_id": "807",
         "month": "Acapulco\n\t\t\t\n\t\t\n\t\t\n\t\t\tAcapulco,",
         "name": "Acapulco",
         "location": "Acapulco, Mexico",
@@ -249,7 +250,7 @@
         "doubles_winner_2_name": "Bruno Soares"
     },
     {
-        "_id": "/en/scores/archive/sao-paulo/533/2017/results",
+        "_id": "533",
         "month": "Sao",
         "name": "Sao Paulo",
         "location": "Sao Paulo, Brazil",
@@ -263,7 +264,7 @@
         "doubles_winner_2_name": "Rogerio Dutra Silva"
     },
     {
-        "_id": "/en/scores/archive/indian-wells/404/2017/results",
+        "_id": "404",
         "month": "ATP",
         "name": "ATP World Tour Masters 1000 Indian Wells",
         "location": "Indian Wells, United States",
@@ -277,7 +278,7 @@
         "doubles_winner_2_name": "Rajeev Ram"
     },
     {
-        "_id": "/en/scores/archive/miami/403/2017/results",
+        "_id": "403",
         "month": "ATP",
         "name": "ATP World Tour Masters 1000 Miami",
         "location": "Miami, United States",
@@ -291,6 +292,7 @@
         "doubles_winner_2_name": "Marcelo Melo"
     },
     {
+        "_id": "403",
         "month": "Davis",
         "name": "Davis Cup Quarter-Finals",
         "location": "",
@@ -302,7 +304,7 @@
         "singles_winner_name": ""
     },
     {
-        "_id": "/en/scores/archive/houston/717/2017/results",
+        "_id": "717",
         "month": "Houston\n\t\t\t\n\t\t\n\t\t\n\t\t\tHouston,",
         "name": "Houston",
         "location": "Houston, United States",
@@ -316,7 +318,7 @@
         "doubles_winner_2_name": "Horacio Zeballos"
     },
     {
-        "_id": "/en/scores/archive/marrakech/360/2017/results",
+        "_id": "360",
         "month": "Marrakech\n\t\t\t\n\t\t\n\t\t\n\t\t\tMarrakech,",
         "name": "Marrakech",
         "location": "Marrakech, Morocco",
@@ -330,7 +332,7 @@
         "doubles_winner_2_name": "Mate Pavic"
     },
     {
-        "_id": "/en/scores/archive/monte-carlo/410/2017/results",
+        "_id": "410",
         "month": "ATP",
         "name": "ATP World Tour Masters 1000 Monte Carlo",
         "location": "Monte Carlo, Monaco",
@@ -344,7 +346,7 @@
         "doubles_winner_2_name": "Pablo Cuevas"
     },
     {
-        "_id": "/en/scores/archive/barcelona/425/2017/results",
+        "_id": "425",
         "month": "Barcelona\n\t\t\t\n\t\t\n\t\t\n\t\t\tBarcelona,",
         "name": "Barcelona",
         "location": "Barcelona, Spain",
@@ -358,7 +360,7 @@
         "doubles_winner_2_name": "Aisam-Ul-Haq Qureshi"
     },
     {
-        "_id": "/en/scores/archive/budapest/7648/2017/results",
+        "_id": "7648",
         "month": "Budapest\n\t\t\t\n\t\t\n\t\t\n\t\t\tBudapest,",
         "name": "Budapest",
         "location": "Budapest, Hungary",
@@ -372,7 +374,7 @@
         "doubles_winner_2_name": "Nikola Mektic"
     },
     {
-        "_id": "/en/scores/archive/estoril/7290/2017/results",
+        "_id": "7290",
         "month": "Estoril\n\t\t\t\n\t\t\n\t\t\n\t\t\tEstoril,",
         "name": "Estoril",
         "location": "Estoril, Portugal",
@@ -386,7 +388,7 @@
         "doubles_winner_2_name": "Michael Venus"
     },
     {
-        "_id": "/en/scores/archive/munich/308/2017/results",
+        "_id": "308",
         "month": "Munich\n\t\t\t\n\t\t\n\t\t\n\t\t\tMunich,",
         "name": "Munich",
         "location": "Munich, Germany",
@@ -400,7 +402,7 @@
         "doubles_winner_2_name": "Robert Farah"
     },
     {
-        "_id": "/en/scores/archive/istanbul/7163/2017/results",
+        "_id": "7163",
         "month": "Istanbul\n\t\t\t\n\t\t\n\t\t\n\t\t\tIstanbul,",
         "name": "Istanbul",
         "location": "Istanbul, Turkey",
@@ -414,7 +416,7 @@
         "doubles_winner_2_name": "Jiri Vesely"
     },
     {
-        "_id": "/en/scores/archive/madrid/1536/2017/results",
+        "_id": "1536",
         "month": "ATP",
         "name": "ATP World Tour Masters 1000 Madrid",
         "location": "Madrid, Spain",
@@ -428,7 +430,7 @@
         "doubles_winner_2_name": "Marcelo Melo"
     },
     {
-        "_id": "/en/scores/archive/rome/416/2017/results",
+        "_id": "416",
         "month": "ATP",
         "name": "ATP World Tour Masters 1000 Rome",
         "location": "Rome, Italy",
@@ -442,7 +444,7 @@
         "doubles_winner_2_name": "Nicolas Mahut"
     },
     {
-        "_id": "/en/scores/archive/geneva/322/2017/results",
+        "_id": "322",
         "month": "Geneva\n\t\t\t\n\t\t\n\t\t\n\t\t\tGeneva,",
         "name": "Geneva",
         "location": "Geneva, Switzerland",
@@ -456,7 +458,7 @@
         "doubles_winner_2_name": "Horia Tecau"
     },
     {
-        "_id": "/en/scores/archive/lyon/7694/2017/results",
+        "_id": "7694",
         "month": "Lyon\n\t\t\t\n\t\t\n\t\t\n\t\t\tLyon,",
         "name": "Lyon",
         "location": "Lyon, France",
@@ -470,7 +472,7 @@
         "doubles_winner_2_name": "Adil Shamasdin"
     },
     {
-        "_id": "/en/scores/archive/roland-garros/520/2017/results",
+        "_id": "520",
         "month": "Roland",
         "name": "Roland Garros",
         "location": "Paris, France",
@@ -484,7 +486,7 @@
         "doubles_winner_2_name": "Michael Venus"
     },
     {
-        "_id": "/en/scores/archive/stuttgart/321/2017/results",
+        "_id": "321",
         "month": "Stuttgart\n\t\t\t\n\t\t\n\t\t\n\t\t\tStuttgart,",
         "name": "Stuttgart",
         "location": "Stuttgart, Germany",
@@ -498,7 +500,7 @@
         "doubles_winner_2_name": "Bruno Soares"
     },
     {
-        "_id": "/en/scores/archive/s-hertogenbosch/440/2017/results",
+        "_id": "440",
         "month": "s-Hertogenbosch\n\t\t\t\n\t\t\n\t\t\n\t\t\ts-Hertogenbosch,",
         "name": "s-Hertogenbosch",
         "location": "s-Hertogenbosch, Netherlands",
@@ -512,7 +514,7 @@
         "doubles_winner_2_name": "Marcelo Melo"
     },
     {
-        "_id": "/en/scores/archive/halle/500/2017/results",
+        "_id": "500",
         "month": "Halle\n\t\t\t\n\t\t\n\t\t\n\t\t\tHalle,",
         "name": "Halle",
         "location": "Halle, Germany",
@@ -526,7 +528,7 @@
         "doubles_winner_2_name": "Marcelo Melo"
     },
     {
-        "_id": "/en/scores/archive/london/311/2017/results",
+        "_id": "311",
         "month": "London",
         "name": "London / Queen's Club",
         "location": "London, Great Britain",
@@ -540,7 +542,7 @@
         "doubles_winner_2_name": "Bruno Soares"
     },
     {
-        "_id": "/en/scores/archive/antalya/7650/2017/results",
+        "_id": "7650",
         "month": "Antalya\n\t\t\t\n\t\t\n\t\t\n\t\t\tAntalya,",
         "name": "Antalya",
         "location": "Antalya, Turkey",
@@ -554,7 +556,7 @@
         "doubles_winner_2_name": "Aisam-Ul-Haq Qureshi"
     },
     {
-        "_id": "/en/scores/archive/eastbourne/741/2017/results",
+        "_id": "741",
         "month": "Eastbourne\n\t\t\t\n\t\t\n\t\t\n\t\t\tEastbourne,",
         "name": "Eastbourne",
         "location": "Eastbourne, Great Britain",
@@ -568,7 +570,7 @@
         "doubles_winner_2_name": "Mike Bryan"
     },
     {
-        "_id": "/en/scores/archive/wimbledon/540/2017/results",
+        "_id": "540",
         "month": "Wimbledon\n\t\t\t\n\t\t\n\t\t\n\t\t\tLondon,",
         "name": "Wimbledon",
         "location": "London, Great Britain",
@@ -582,7 +584,7 @@
         "doubles_winner_2_name": "Marcelo Melo"
     },
     {
-        "_id": "/en/scores/archive/newport/315/2017/results",
+        "_id": "315",
         "month": "Newport\n\t\t\t\n\t\t\n\t\t\n\t\t\tNewport,",
         "name": "Newport",
         "location": "Newport, United States",
@@ -596,7 +598,7 @@
         "doubles_winner_2_name": "Rajeev Ram"
     },
     {
-        "_id": "/en/scores/archive/bastad/316/2017/results",
+        "_id": "316",
         "month": "Bastad\n\t\t\t\n\t\t\n\t\t\n\t\t\tBastad,",
         "name": "Bastad",
         "location": "Bastad, Sweden",
@@ -610,7 +612,7 @@
         "doubles_winner_2_name": "Philipp Petzschner"
     },
     {
-        "_id": "/en/scores/archive/umag/439/2017/results",
+        "_id": "439",
         "month": "Umag\n\t\t\t\n\t\t\n\t\t\n\t\t\tUmag,",
         "name": "Umag",
         "location": "Umag, Croatia",
@@ -624,7 +626,7 @@
         "doubles_winner_2_name": "Andres Molteni"
     },
     {
-        "_id": "/en/scores/archive/hamburg/414/2017/results",
+        "_id": "414",
         "month": "Hamburg\n\t\t\t\n\t\t\n\t\t\n\t\t\tHamburg,",
         "name": "Hamburg",
         "location": "Hamburg, Germany",
@@ -638,7 +640,7 @@
         "doubles_winner_2_name": "Mate Pavic"
     },
     {
-        "_id": "/en/scores/archive/atlanta/6116/2017/results",
+        "_id": "6116",
         "month": "Atlanta\n\t\t\t\n\t\t\n\t\t\n\t\t\tAtlanta,",
         "name": "Atlanta",
         "location": "Atlanta, United States",
@@ -652,7 +654,7 @@
         "doubles_winner_2_name": "Mike Bryan"
     },
     {
-        "_id": "/en/scores/archive/gstaad/314/2017/results",
+        "_id": "314",
         "month": "Gstaad\n\t\t\t\n\t\t\n\t\t\n\t\t\tGstaad,",
         "name": "Gstaad",
         "location": "Gstaad, Switzerland",
@@ -666,7 +668,7 @@
         "doubles_winner_2_name": "Philipp Oswald"
     },
     {
-        "_id": "/en/scores/archive/washington/418/2017/results",
+        "_id": "418",
         "month": "Washington\n\t\t\t\n\t\t\n\t\t\n\t\t\tWashington,",
         "name": "Washington",
         "location": "Washington, United States",
@@ -680,7 +682,7 @@
         "doubles_winner_2_name": "John Peers"
     },
     {
-        "_id": "/en/scores/archive/los-cabos/7480/2017/results",
+        "_id": "7480",
         "month": "Los",
         "name": "Los Cabos",
         "location": "Los Cabos, Mexico",
@@ -694,7 +696,7 @@
         "doubles_winner_2_name": "Treat Huey"
     },
     {
-        "_id": "/en/scores/archive/kitzbuhel/319/2017/results",
+        "_id": "319",
         "month": "Kitzbühel\n\t\t\t\n\t\t\n\t\t\n\t\t\tKitzbuhel,",
         "name": "Kitzbühel",
         "location": "Kitzbuhel, Austria",
@@ -708,7 +710,7 @@
         "doubles_winner_2_name": "Guillermo Duran"
     },
     {
-        "_id": "/en/scores/archive/montreal/421/2017/results",
+        "_id": "421",
         "month": "ATP",
         "name": "ATP World Tour Masters 1000 Canada",
         "location": "Montreal, Canada",
@@ -722,7 +724,7 @@
         "doubles_winner_2_name": "Nicolas Mahut"
     },
     {
-        "_id": "/en/scores/archive/cincinnati/422/2017/results",
+        "_id": "422",
         "month": "ATP",
         "name": "ATP World Tour Masters 1000 Cincinnati",
         "location": "Cincinnati, United States",
@@ -736,7 +738,7 @@
         "doubles_winner_2_name": "Nicolas Mahut"
     },
     {
-        "_id": "/en/scores/archive/winston-salem/6242/2017/results",
+        "_id": "6242",
         "month": "Winston-Salem\n\t\t\t\n\t\t\n\t\t\n\t\t\tWinston-Salem,",
         "name": "Winston-Salem",
         "location": "Winston-Salem, United States",
@@ -750,7 +752,7 @@
         "doubles_winner_2_name": "Horia Tecau"
     },
     {
-        "_id": "/en/scores/archive/us-open/560/2017/results",
+        "_id": "560",
         "month": "US",
         "name": "US Open",
         "location": "New York, United States",
@@ -764,6 +766,7 @@
         "doubles_winner_2_name": "Horia Tecau"
     },
     {
+        "_id": "560",
         "month": "Davis",
         "name": "Davis Cup Semi-Finals",
         "location": "",
@@ -775,7 +778,7 @@
         "singles_winner_name": ""
     },
     {
-        "_id": "/en/scores/archive/st-petersburg/568/2017/results",
+        "_id": "568",
         "month": "St.",
         "name": "St. Petersburg",
         "location": "St. Petersburg, Russia",
@@ -789,7 +792,7 @@
         "doubles_winner_2_name": "Matwe Middelkoop"
     },
     {
-        "_id": "/en/scores/archive/metz/341/2017/results",
+        "_id": "341",
         "month": "Metz\n\t\t\t\n\t\t\n\t\t\n\t\t\tMetz,",
         "name": "Metz",
         "location": "Metz, France",
@@ -803,7 +806,7 @@
         "doubles_winner_2_name": "Edouard Roger-Vasselin"
     },
     {
-        "_id": "/en/scores/archive/chengdu/7581/2017/results",
+        "_id": "7581",
         "month": "Chengdu\n\t\t\t\n\t\t\n\t\t\n\t\t\tChengdu,",
         "name": "Chengdu",
         "location": "Chengdu, China",
@@ -817,7 +820,7 @@
         "doubles_winner_2_name": "Aisam-Ul-Haq Qureshi"
     },
     {
-        "_id": "/en/scores/archive/shenzhen/6967/2017/results",
+        "_id": "6967",
         "month": "Shenzhen\n\t\t\t\n\t\t\n\t\t\n\t\t\tShenzhen,",
         "name": "Shenzhen",
         "location": "Shenzhen, China",
@@ -831,7 +834,7 @@
         "doubles_winner_2_name": "Rajeev Ram"
     },
     {
-        "_id": "/en/scores/archive/beijing/747/2017/results",
+        "_id": "747",
         "month": "Beijing\n\t\t\t\n\t\t\n\t\t\n\t\t\tBeijing,",
         "name": "Beijing",
         "location": "Beijing, China",
@@ -845,7 +848,7 @@
         "doubles_winner_2_name": "John Peers"
     },
     {
-        "_id": "/en/scores/archive/tokyo/329/2017/results",
+        "_id": "329",
         "month": "Tokyo\n\t\t\t\n\t\t\n\t\t\n\t\t\tTokyo,",
         "name": "Tokyo",
         "location": "Tokyo, Japan",
@@ -859,7 +862,7 @@
         "doubles_winner_2_name": "Yasutaka Uchiyama"
     },
     {
-        "_id": "/en/scores/archive/shanghai/5014/2017/results",
+        "_id": "5014",
         "month": "ATP",
         "name": "ATP World Tour Masters 1000 Shanghai",
         "location": "Shanghai, China",
@@ -873,7 +876,7 @@
         "doubles_winner_2_name": "John Peers"
     },
     {
-        "_id": "/en/scores/archive/moscow/438/2017/results",
+        "_id": "438",
         "month": "Moscow\n\t\t\t\n\t\t\n\t\t\n\t\t\tMoscow,",
         "name": "Moscow",
         "location": "Moscow, Russia",
@@ -887,7 +890,7 @@
         "doubles_winner_2_name": "Philipp Oswald"
     },
     {
-        "_id": "/en/scores/archive/antwerp/7485/2017/results",
+        "_id": "7485",
         "month": "Antwerp\n\t\t\t\n\t\t\n\t\t\n\t\t\tAntwerp,",
         "name": "Antwerp",
         "location": "Antwerp, Belgium",
@@ -901,7 +904,7 @@
         "doubles_winner_2_name": "Divij Sharan"
     },
     {
-        "_id": "/en/scores/archive/stockholm/429/2017/results",
+        "_id": "429",
         "month": "Stockholm\n\t\t\t\n\t\t\n\t\t\n\t\t\tStockholm,",
         "name": "Stockholm",
         "location": "Stockholm, Sweden",
@@ -915,7 +918,7 @@
         "doubles_winner_2_name": "Mate Pavic"
     },
     {
-        "_id": "/en/scores/archive/vienna/337/2017/results",
+        "_id": "337",
         "month": "Vienna\n\t\t\t\n\t\t\n\t\t\n\t\t\tVienna,",
         "name": "Vienna",
         "location": "Vienna, Austria",
@@ -929,7 +932,7 @@
         "doubles_winner_2_name": "Pablo Cuevas"
     },
     {
-        "_id": "/en/scores/archive/basel/328/2017/results",
+        "_id": "328",
         "month": "Basel\n\t\t\t\n\t\t\n\t\t\n\t\t\tBasel,",
         "name": "Basel",
         "location": "Basel, Switzerland",
@@ -943,7 +946,7 @@
         "doubles_winner_2_name": "Marcel Granollers"
     },
     {
-        "_id": "/en/scores/archive/paris/352/2017/results",
+        "_id": "352",
         "month": "ATP",
         "name": "ATP World Tour Masters 1000 Paris",
         "location": "Paris, France",
@@ -957,7 +960,7 @@
         "doubles_winner_2_name": "Marcelo Melo"
     },
     {
-        "_id": "/en/scores/archive/next-gen-atp-finals/7696/2017/results",
+        "_id": "7696",
         "month": "Next",
         "name": "Next Gen ATP Finals",
         "location": "Milan, Italy",
@@ -969,7 +972,7 @@
         "singles_winner_name": "Hyeon Chung"
     },
     {
-        "_id": "/en/scores/archive/nitto-atp-finals/605/2017/results",
+        "_id": "605",
         "month": "Nitto",
         "name": "Nitto ATP Finals",
         "location": "London, Great Britain",
@@ -983,6 +986,7 @@
         "doubles_winner_2_name": "John Peers"
     },
     {
+        "_id": "605",
         "month": "Davis",
         "name": "Davis Cup Final",
         "location": "",
