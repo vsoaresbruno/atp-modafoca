@@ -9,6 +9,7 @@ import {
 	Text,
 	View,
 	Image,
+	ImageBackground,
 	TouchableOpacity
 } from 'react-native';
 
@@ -41,10 +42,7 @@ class FirstActivity extends Component {
 		super(props);
 		this.state = {
 			isLoading: true,
-			data: dataTournaments
 		}
-
-		this.getItem = this.getItem.bind(this);
 	}
 
 	getTournaments() {
@@ -61,12 +59,10 @@ class FirstActivity extends Component {
 		return this.getTournaments();
 	}
 
-	getItem = (tournament_name) => {
+	getItem = (tourney) => {
 		const { navigate } = this.props.navigation;
-
-		console.log(tournament_name);
-
-		navigate('Second', { ListViewClickItemHolder: tournament_name });
+		console.log(tourney)
+		navigate('Second', tourney);
 	}
 
 	getBadge = (badge) => {
@@ -107,7 +103,7 @@ class FirstActivity extends Component {
 					style={styles.listContainer}
 					data={this.state.dataSource}
 					renderItem={({ item }) => (
-						<TouchableOpacity onPress={() => this.getItem(this, item.name)}>
+						<TouchableOpacity onPress={() => this.getItem(item)}>
 							<View style={styles.rowViewContainer}>
 								<View style={styles.tournamentImg}>
 									<Image
@@ -139,8 +135,9 @@ class FirstActivity extends Component {
 }
 
 class SecondActivity extends Component {
+
 	static navigationOptions = {
-		title: 'Tournaments',
+		title: 'Tourney',
 		headerTitleStyle: {
 			color: '#FFF'
 		},
@@ -148,16 +145,130 @@ class SecondActivity extends Component {
 			backgroundColor: '#00aeef',
 		},
 		headerTintColor: '#FFF',
+		headerStyle: {
+			backgroundColor: '#00aeef'
+		},
 	}
 
 	render() {
+		const resizeMode = 'cover';
 		return (
 			<View style={styles.itemContainer}>
-				<Text
-					style={styles.rowTournament}>{this.props.navigation.state.params.ListViewClickItemHolder}
-				</Text>
+				<ImageBackground
+					style={styles.headerContainer}
+					source={require("./images/header_blur.jpg")}
+				>
+					<Text
+						style={styles.titleHeader}>{this.props.navigation.state.params.name}
+					</Text>
+					<Text
+						style={styles.textHeader}>{this.props.navigation.state.params.location}
+					</Text>
+					<Text
+						style={styles.textHeader}>{this.props.navigation.state.params.dates}
+					</Text>
+				</ImageBackground>
 
-			</View>
+
+				<View style={styles.infoContainer}>
+
+					<View style={styles.tournamentInfo}>
+						<View style={styles.containerSection}>
+							<Text style={styles.titleSection}>
+								Surface
+							</Text>
+						</View>
+
+						<View style={styles.tournamentRow}>
+							<Text style={styles.infoValues}>
+								{this.props.navigation.state.params.surface}
+							</Text>
+
+						</View>
+					</View>
+
+
+
+
+
+					<View style={styles.tournamentInfo}>
+						<View style={styles.containerSection}>
+							<Text style={styles.titleSection}>
+								Winner
+							</Text>
+						</View>
+						<View style={styles.tournamentRow}>
+							<View>
+								<Text style={styles.infoLabel}>SGL:</Text>
+							</View>
+
+							<View>
+								<Text style={styles.infoValues}>
+									{this.props.navigation.state.params.singles_winner_name}
+								</Text>
+							</View>
+						</View>
+						<View style={styles.tournamentRow}>
+							<View>
+								<Text style={styles.infoLabel}>DBL:</Text>
+							</View>
+							<View>
+								<Text style={styles.infoValues}>
+									{this.props.navigation.state.params.doubles_winner_1_name}, {this.props.navigation.state.params.doubles_winner_2_name}
+								</Text>
+							</View>
+						</View>
+					</View>
+
+
+
+					<View style={styles.tournamentInfo}>
+						<View style={styles.containerSection}>
+							<Text style={styles.titleSection}>
+								Draw
+							</Text>
+						</View>
+						<View style={styles.tournamentRow}>
+							<View>
+								<Text style={styles.infoLabel}>SGL:</Text>
+							</View>
+
+							<View>
+								<Text style={styles.infoValues}>
+									{this.props.navigation.state.params.singles_draw}
+								</Text>
+							</View>
+						</View>
+						<View style={styles.tournamentRow}>
+							<View>
+								<Text style={styles.infoLabel}>DBL:</Text>
+							</View>
+							<View>
+								<Text style={styles.infoValues}>
+									{this.props.navigation.state.params.doubles_draw}
+								</Text>
+							</View>
+						</View>
+					</View>
+
+					<View style={styles.tournamentInfo}>
+						<View style={styles.containerSection}>
+							<Text style={styles.titleSection}>
+								Total Financial Commitment
+							</Text>
+						</View>
+
+						<View style={styles.tournamentRow}>
+							<Text style={styles.infoValues}>
+								{this.props.navigation.state.params.fin_commit}
+							</Text>
+
+						</View>
+					</View>
+
+
+				</View>
+			</View >
 		);
 	}
 }
@@ -177,10 +288,6 @@ const styles = StyleSheet.create({
 
 	listContainer: {
 		marginTop: 0,
-		margin: 10,
-	},
-
-	itemContainer: {
 		margin: 10,
 	},
 
@@ -210,6 +317,71 @@ const styles = StyleSheet.create({
 	},
 
 	tournamentInfo: {
-		flex: 1,
+		flexDirection: 'column',
+		marginBottom: 15,
 	},
+
+	itemContainer: {
+		flexDirection: 'column',
+	},
+
+	tournamentRow: {
+		flexDirection: 'row',
+		margin: 5,
+	},
+
+	headerContainer: {
+		justifyContent: 'center',
+		paddingLeft: 10,
+		height: 100,
+	},
+
+	titleHeader: {
+		fontSize: 23,
+		fontWeight: 'bold',
+		color: '#FFF',
+	},
+
+	textHeader: {
+		fontSize: 13,
+		color: '#FFF',
+	},
+
+	infoContainer: {
+		marginTop: 15,
+		margin: 10,
+
+	},
+
+	infoLabel: {
+		fontSize: 16,
+		fontWeight: 'bold',
+	},
+
+	infoValues: {
+		fontSize: 16,
+		marginBottom: 3,
+	},
+
+	containerSection: {
+		marginBottom: 5,
+		paddingBottom: 5,
+		borderBottomColor: '#dcdcdc',
+		borderBottomWidth: 1,
+
+	},
+
+	titleSection: {
+		color: '#333',
+		fontWeight: 'bold',
+		fontSize: 20,
+	},
+
+	infoText: {
+		fontSize: 20,
+		color: '#00aeef',
+		marginBottom: 3,
+	}
+
+
 });

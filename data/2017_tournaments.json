@@ -1,7 +1,7 @@
 [
     {
         "_id": "339",
-        "month": "Brisbane\n\t\t\t\n\t\t\n\t\t\n\t\t\tBrisbane,",
+        "month": "01",
         "name": "Brisbane",
         "location": "Brisbane, Australia",
         "dates": "2017.01.01",
@@ -11,11 +11,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Grigor Dimitrov",
         "doubles_winner_1_name": "Thanasi Kokkinakis",
-        "doubles_winner_2_name": "Jordan Thompson"
+        "doubles_winner_2_name": "Jordan Thompson",
+        "fin_commit": "$495,630"
     },
     {
         "_id": "451",
-        "month": "Doha\n\t\t\t\n\t\t\n\t\t\n\t\t\tDoha,",
+        "month": "01",
         "name": "Doha",
         "location": "Doha, Qatar",
         "dates": "2017.01.02",
@@ -25,11 +26,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Novak Djokovic",
         "doubles_winner_1_name": "Jeremy Chardy",
-        "doubles_winner_2_name": "Fabrice Martin"
+        "doubles_winner_2_name": "Fabrice Martin",
+        "fin_commit": "$1,334,270"
     },
     {
         "_id": "891",
-        "month": "Chennai\n\t\t\t\n\t\t\n\t\t\n\t\t\tChennai,",
+        "month": "01",
         "name": "Chennai",
         "location": "Chennai, India",
         "dates": "2017.01.02",
@@ -39,11 +41,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Roberto Bautista Agut",
         "doubles_winner_1_name": "Rohan Bopanna",
-        "doubles_winner_2_name": "Jeevan Nedunchezhiyan"
+        "doubles_winner_2_name": "Jeevan Nedunchezhiyan",
+        "fin_commit": "$505,730"
     },
     {
         "_id": "338",
-        "month": "Sydney\n\t\t\t\n\t\t\n\t\t\n\t\t\tSydney,",
+        "month": "01",
         "name": "Sydney",
         "location": "Sydney, Australia",
         "dates": "2017.01.08",
@@ -53,11 +56,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Gilles Muller",
         "doubles_winner_1_name": "Wesley Koolhof",
-        "doubles_winner_2_name": "Matwe Middelkoop"
+        "doubles_winner_2_name": "Matwe Middelkoop",
+        "fin_commit": "$495,630"
     },
     {
         "_id": "301",
-        "month": "Auckland\n\t\t\t\n\t\t\n\t\t\n\t\t\tAuckland,",
+        "month": "01",
         "name": "Auckland",
         "location": "Auckland, New Zealand",
         "dates": "2017.01.09",
@@ -67,11 +71,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Jack Sock",
         "doubles_winner_1_name": "Marcin Matkowski",
-        "doubles_winner_2_name": "Aisam-Ul-Haq Qureshi"
+        "doubles_winner_2_name": "Aisam-Ul-Haq Qureshi",
+        "fin_commit": "$508,360"
     },
     {
         "_id": "580",
-        "month": "Australian",
+        "month": "01",
         "name": "Australian Open",
         "location": "Melbourne, Australia",
         "dates": "2017.01.16",
@@ -81,11 +86,12 @@
         "doubles_draw": "64",
         "singles_winner_name": "Roger Federer",
         "doubles_winner_1_name": "Henri Kontinen",
-        "doubles_winner_2_name": "John Peers"
+        "doubles_winner_2_name": "John Peers",
+        "fin_commit": "A$22,624,000"
     },
     {
         "_id": "580",
-        "month": "Davis",
+        "month": "02",
         "name": "Davis Cup First Round",
         "location": "",
         "dates": "2017.02.03",
@@ -93,11 +99,12 @@
         "surface": "",
         "singles_draw": "4",
         "doubles_draw": "1",
-        "singles_winner_name": ""
+        "singles_winner_name": "",
+        "fin_commit": ""
     },
     {
         "_id": "375",
-        "month": "Montpellier\n\t\t\t\n\t\t\n\t\t\n\t\t\tMontpellier,",
+        "month": "02",
         "name": "Montpellier",
         "location": "Montpellier, France",
         "dates": "2017.02.06",
@@ -107,11 +114,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Alexander Zverev",
         "doubles_winner_1_name": "Mischa Zverev",
-        "doubles_winner_2_name": "Alexander Zverev"
+        "doubles_winner_2_name": "Alexander Zverev",
+        "fin_commit": "€540,310"
     },
     {
         "_id": "7161",
-        "month": "Quito\n\t\t\t\n\t\t\n\t\t\n\t\t\tQuito,",
+        "month": "02",
         "name": "Quito",
         "location": "Quito, Ecuador",
         "dates": "2017.02.06",
@@ -121,11 +129,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Victor Estrella Burgos",
         "doubles_winner_1_name": "Jamie Cerretani",
-        "doubles_winner_2_name": "Philipp Oswald"
+        "doubles_winner_2_name": "Philipp Oswald",
+        "fin_commit": "$540,310"
     },
     {
         "_id": "7434",
-        "month": "Sofia\n\t\t\t\n\t\t\n\t\t\n\t\t\tSofia,",
+        "month": "02",
         "name": "Sofia",
         "location": "Sofia, Bulgaria",
         "dates": "2017.02.06",
@@ -135,11 +144,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Grigor Dimitrov",
         "doubles_winner_1_name": "Viktor Troicki",
-        "doubles_winner_2_name": "Nenad Zimonjic"
+        "doubles_winner_2_name": "Nenad Zimonjic",
+        "fin_commit": "€540,310"
     },
     {
         "_id": "407",
-        "month": "Rotterdam\n\t\t\t\n\t\t\n\t\t\n\t\t\tRotterdam,",
+        "month": "02",
         "name": "Rotterdam",
         "location": "Rotterdam, Netherlands",
         "dates": "2017.02.13",
@@ -149,11 +159,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Jo-Wilfried Tsonga",
         "doubles_winner_1_name": "Ivan Dodig",
-        "doubles_winner_2_name": "Marcel Granollers"
+        "doubles_winner_2_name": "Marcel Granollers",
+        "fin_commit": "€1,854,365"
     },
     {
         "_id": "424",
-        "month": "Memphis\n\t\t\t\n\t\t\n\t\t\n\t\t\tMemphis,",
+        "month": "02",
         "name": "Memphis",
         "location": "Memphis, United States",
         "dates": "2017.02.13",
@@ -163,11 +174,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Ryan Harrison",
         "doubles_winner_1_name": "Brian Baker",
-        "doubles_winner_2_name": "Nikola Mektic"
+        "doubles_winner_2_name": "Nikola Mektic",
+        "fin_commit": "$720,410"
     },
     {
         "_id": "506",
-        "month": "Buenos",
+        "month": "02",
         "name": "Buenos Aires",
         "location": "Buenos Aires, Argentina",
         "dates": "2017.02.13",
@@ -177,11 +189,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Alexandr Dolgopolov",
         "doubles_winner_1_name": "Juan Sebastian Cabal",
-        "doubles_winner_2_name": "Robert Farah"
+        "doubles_winner_2_name": "Robert Farah",
+        "fin_commit": "$624,340"
     },
     {
         "_id": "6932",
-        "month": "Rio",
+        "month": "02",
         "name": "Rio de Janeiro",
         "location": "Rio de Janeiro, Brazil",
         "dates": "2017.02.20",
@@ -191,11 +204,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Dominic Thiem",
         "doubles_winner_1_name": "Pablo Cuevas",
-        "doubles_winner_2_name": "Pablo Carreno Busta"
+        "doubles_winner_2_name": "Pablo Carreno Busta",
+        "fin_commit": "$1,603,940"
     },
     {
         "_id": "496",
-        "month": "Marseille\n\t\t\t\n\t\t\n\t\t\n\t\t\tMarseille,",
+        "month": "02",
         "name": "Marseille",
         "location": "Marseille, France",
         "dates": "2017.02.20",
@@ -205,11 +219,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Jo-Wilfried Tsonga",
         "doubles_winner_1_name": "Julien Benneteau",
-        "doubles_winner_2_name": "Nicolas Mahut"
+        "doubles_winner_2_name": "Nicolas Mahut",
+        "fin_commit": "€691,850"
     },
     {
         "_id": "499",
-        "month": "Delray",
+        "month": "02",
         "name": "Delray Beach",
         "location": "Delray Beach, United States",
         "dates": "2017.02.20",
@@ -219,11 +234,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Jack Sock",
         "doubles_winner_1_name": "Raven Klaasen",
-        "doubles_winner_2_name": "Rajeev Ram"
+        "doubles_winner_2_name": "Rajeev Ram",
+        "fin_commit": "$599,345"
     },
     {
         "_id": "495",
-        "month": "Dubai\n\t\t\t\n\t\t\n\t\t\n\t\t\tDubai,",
+        "month": "02",
         "name": "Dubai",
         "location": "Dubai, United Arab Emirates",
         "dates": "2017.02.27",
@@ -233,11 +249,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Andy Murray",
         "doubles_winner_1_name": "Jean-Julien Rojer",
-        "doubles_winner_2_name": "Horia Tecau"
+        "doubles_winner_2_name": "Horia Tecau",
+        "fin_commit": "$2,858,530"
     },
     {
         "_id": "807",
-        "month": "Acapulco\n\t\t\t\n\t\t\n\t\t\n\t\t\tAcapulco,",
+        "month": "02",
         "name": "Acapulco",
         "location": "Acapulco, Mexico",
         "dates": "2017.02.27",
@@ -247,11 +264,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Sam Querrey",
         "doubles_winner_1_name": "Jamie Murray",
-        "doubles_winner_2_name": "Bruno Soares"
+        "doubles_winner_2_name": "Bruno Soares",
+        "fin_commit": "$1,633,690"
     },
     {
         "_id": "533",
-        "month": "Sao",
+        "month": "02",
         "name": "Sao Paulo",
         "location": "Sao Paulo, Brazil",
         "dates": "2017.02.27",
@@ -261,11 +279,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Pablo Cuevas",
         "doubles_winner_1_name": "Andre Sa",
-        "doubles_winner_2_name": "Rogerio Dutra Silva"
+        "doubles_winner_2_name": "Rogerio Dutra Silva",
+        "fin_commit": "$520,285"
     },
     {
         "_id": "404",
-        "month": "ATP",
+        "month": "03",
         "name": "ATP World Tour Masters 1000 Indian Wells",
         "location": "Indian Wells, United States",
         "dates": "2017.03.09",
@@ -275,11 +294,12 @@
         "doubles_draw": "32",
         "singles_winner_name": "Roger Federer",
         "doubles_winner_1_name": "Raven Klaasen",
-        "doubles_winner_2_name": "Rajeev Ram"
+        "doubles_winner_2_name": "Rajeev Ram",
+        "fin_commit": "$7,913,405"
     },
     {
         "_id": "403",
-        "month": "ATP",
+        "month": "03",
         "name": "ATP World Tour Masters 1000 Miami",
         "location": "Miami, United States",
         "dates": "2017.03.22",
@@ -289,11 +309,12 @@
         "doubles_draw": "32",
         "singles_winner_name": "Roger Federer",
         "doubles_winner_1_name": "Lukasz Kubot",
-        "doubles_winner_2_name": "Marcelo Melo"
+        "doubles_winner_2_name": "Marcelo Melo",
+        "fin_commit": "$7,913,405"
     },
     {
         "_id": "403",
-        "month": "Davis",
+        "month": "04",
         "name": "Davis Cup Quarter-Finals",
         "location": "",
         "dates": "2017.04.07",
@@ -301,11 +322,12 @@
         "surface": "",
         "singles_draw": "4",
         "doubles_draw": "1",
-        "singles_winner_name": ""
+        "singles_winner_name": "",
+        "fin_commit": ""
     },
     {
         "_id": "717",
-        "month": "Houston\n\t\t\t\n\t\t\n\t\t\n\t\t\tHouston,",
+        "month": "04",
         "name": "Houston",
         "location": "Houston, United States",
         "dates": "2017.04.10",
@@ -315,11 +337,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Steve Johnson",
         "doubles_winner_1_name": "Julio Peralta",
-        "doubles_winner_2_name": "Horacio Zeballos"
+        "doubles_winner_2_name": "Horacio Zeballos",
+        "fin_commit": "$600,345"
     },
     {
         "_id": "360",
-        "month": "Marrakech\n\t\t\t\n\t\t\n\t\t\n\t\t\tMarrakech,",
+        "month": "04",
         "name": "Marrakech",
         "location": "Marrakech, Morocco",
         "dates": "2017.04.10",
@@ -329,11 +352,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Borna Coric",
         "doubles_winner_1_name": "Dominic Inglot",
-        "doubles_winner_2_name": "Mate Pavic"
+        "doubles_winner_2_name": "Mate Pavic",
+        "fin_commit": "€540,310"
     },
     {
         "_id": "410",
-        "month": "ATP",
+        "month": "04",
         "name": "ATP World Tour Masters 1000 Monte Carlo",
         "location": "Monte Carlo, Monaco",
         "dates": "2017.04.16",
@@ -343,11 +367,12 @@
         "doubles_draw": "24",
         "singles_winner_name": "Rafael Nadal",
         "doubles_winner_1_name": "Rohan Bopanna",
-        "doubles_winner_2_name": "Pablo Cuevas"
+        "doubles_winner_2_name": "Pablo Cuevas",
+        "fin_commit": "€4,629,725"
     },
     {
         "_id": "425",
-        "month": "Barcelona\n\t\t\t\n\t\t\n\t\t\n\t\t\tBarcelona,",
+        "month": "04",
         "name": "Barcelona",
         "location": "Barcelona, Spain",
         "dates": "2017.04.24",
@@ -357,11 +382,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Rafael Nadal",
         "doubles_winner_1_name": "Florin Mergea",
-        "doubles_winner_2_name": "Aisam-Ul-Haq Qureshi"
+        "doubles_winner_2_name": "Aisam-Ul-Haq Qureshi",
+        "fin_commit": "€2,604,340"
     },
     {
         "_id": "7648",
-        "month": "Budapest\n\t\t\t\n\t\t\n\t\t\n\t\t\tBudapest,",
+        "month": "04",
         "name": "Budapest",
         "location": "Budapest, Hungary",
         "dates": "2017.04.24",
@@ -371,11 +397,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Lucas Pouille",
         "doubles_winner_1_name": "Brian Baker",
-        "doubles_winner_2_name": "Nikola Mektic"
+        "doubles_winner_2_name": "Nikola Mektic",
+        "fin_commit": "€540,310"
     },
     {
         "_id": "7290",
-        "month": "Estoril\n\t\t\t\n\t\t\n\t\t\n\t\t\tEstoril,",
+        "month": "05",
         "name": "Estoril",
         "location": "Estoril, Portugal",
         "dates": "2017.05.01",
@@ -385,11 +412,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Pablo Carreno Busta",
         "doubles_winner_1_name": "Ryan Harrison",
-        "doubles_winner_2_name": "Michael Venus"
+        "doubles_winner_2_name": "Michael Venus",
+        "fin_commit": "€540,310"
     },
     {
         "_id": "308",
-        "month": "Munich\n\t\t\t\n\t\t\n\t\t\n\t\t\tMunich,",
+        "month": "05",
         "name": "Munich",
         "location": "Munich, Germany",
         "dates": "2017.05.01",
@@ -399,11 +427,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Alexander Zverev",
         "doubles_winner_1_name": "Juan Sebastian Cabal",
-        "doubles_winner_2_name": "Robert Farah"
+        "doubles_winner_2_name": "Robert Farah",
+        "fin_commit": "€540,310"
     },
     {
         "_id": "7163",
-        "month": "Istanbul\n\t\t\t\n\t\t\n\t\t\n\t\t\tIstanbul,",
+        "month": "05",
         "name": "Istanbul",
         "location": "Istanbul, Turkey",
         "dates": "2017.05.01",
@@ -413,11 +442,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Marin Cilic",
         "doubles_winner_1_name": "Roman Jebavy",
-        "doubles_winner_2_name": "Jiri Vesely"
+        "doubles_winner_2_name": "Jiri Vesely",
+        "fin_commit": "€497,255"
     },
     {
         "_id": "1536",
-        "month": "ATP",
+        "month": "05",
         "name": "ATP World Tour Masters 1000 Madrid",
         "location": "Madrid, Spain",
         "dates": "2017.05.07",
@@ -427,11 +457,12 @@
         "doubles_draw": "24",
         "singles_winner_name": "Rafael Nadal",
         "doubles_winner_1_name": "Lukasz Kubot",
-        "doubles_winner_2_name": "Marcelo Melo"
+        "doubles_winner_2_name": "Marcelo Melo",
+        "fin_commit": "€6,408,230"
     },
     {
         "_id": "416",
-        "month": "ATP",
+        "month": "05",
         "name": "ATP World Tour Masters 1000 Rome",
         "location": "Rome, Italy",
         "dates": "2017.05.14",
@@ -441,11 +472,12 @@
         "doubles_draw": "24",
         "singles_winner_name": "Alexander Zverev",
         "doubles_winner_1_name": "Pierre-Hugues Herbert",
-        "doubles_winner_2_name": "Nicolas Mahut"
+        "doubles_winner_2_name": "Nicolas Mahut",
+        "fin_commit": "€4,835,975"
     },
     {
         "_id": "322",
-        "month": "Geneva\n\t\t\t\n\t\t\n\t\t\n\t\t\tGeneva,",
+        "month": "05",
         "name": "Geneva",
         "location": "Geneva, Switzerland",
         "dates": "2017.05.21",
@@ -455,11 +487,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Stan Wawrinka",
         "doubles_winner_1_name": "Jean-Julien Rojer",
-        "doubles_winner_2_name": "Horia Tecau"
+        "doubles_winner_2_name": "Horia Tecau",
+        "fin_commit": "€540,310"
     },
     {
         "_id": "7694",
-        "month": "Lyon\n\t\t\t\n\t\t\n\t\t\n\t\t\tLyon,",
+        "month": "05",
         "name": "Lyon",
         "location": "Lyon, France",
         "dates": "2017.05.21",
@@ -469,11 +502,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Jo-Wilfried Tsonga",
         "doubles_winner_1_name": "Andres Molteni",
-        "doubles_winner_2_name": "Adil Shamasdin"
+        "doubles_winner_2_name": "Adil Shamasdin",
+        "fin_commit": "€540,310"
     },
     {
         "_id": "520",
-        "month": "Roland",
+        "month": "05",
         "name": "Roland Garros",
         "location": "Paris, France",
         "dates": "2017.05.28",
@@ -483,11 +517,12 @@
         "doubles_draw": "64",
         "singles_winner_name": "Rafael Nadal",
         "doubles_winner_1_name": "Ryan Harrison",
-        "doubles_winner_2_name": "Michael Venus"
+        "doubles_winner_2_name": "Michael Venus",
+        "fin_commit": "€16,790,000"
     },
     {
         "_id": "321",
-        "month": "Stuttgart\n\t\t\t\n\t\t\n\t\t\n\t\t\tStuttgart,",
+        "month": "06",
         "name": "Stuttgart",
         "location": "Stuttgart, Germany",
         "dates": "2017.06.12",
@@ -497,11 +532,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Lucas Pouille",
         "doubles_winner_1_name": "Jamie Murray",
-        "doubles_winner_2_name": "Bruno Soares"
+        "doubles_winner_2_name": "Bruno Soares",
+        "fin_commit": "€701,975"
     },
     {
         "_id": "440",
-        "month": "s-Hertogenbosch\n\t\t\t\n\t\t\n\t\t\n\t\t\ts-Hertogenbosch,",
+        "month": "06",
         "name": "s-Hertogenbosch",
         "location": "s-Hertogenbosch, Netherlands",
         "dates": "2017.06.12",
@@ -511,11 +547,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Gilles Muller",
         "doubles_winner_1_name": "Lukasz Kubot",
-        "doubles_winner_2_name": "Marcelo Melo"
+        "doubles_winner_2_name": "Marcelo Melo",
+        "fin_commit": "€660,375"
     },
     {
         "_id": "500",
-        "month": "Halle\n\t\t\t\n\t\t\n\t\t\n\t\t\tHalle,",
+        "month": "06",
         "name": "Halle",
         "location": "Halle, Germany",
         "dates": "2017.06.19",
@@ -525,11 +562,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Roger Federer",
         "doubles_winner_1_name": "Lukasz Kubot",
-        "doubles_winner_2_name": "Marcelo Melo"
+        "doubles_winner_2_name": "Marcelo Melo",
+        "fin_commit": "€1,966,095"
     },
     {
         "_id": "311",
-        "month": "London",
+        "month": "06",
         "name": "London / Queen's Club",
         "location": "London, Great Britain",
         "dates": "2017.06.19",
@@ -539,11 +577,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Feliciano Lopez",
         "doubles_winner_1_name": "Jamie Murray",
-        "doubles_winner_2_name": "Bruno Soares"
+        "doubles_winner_2_name": "Bruno Soares",
+        "fin_commit": "€1,966,095"
     },
     {
         "_id": "7650",
-        "month": "Antalya\n\t\t\t\n\t\t\n\t\t\n\t\t\tAntalya,",
+        "month": "06",
         "name": "Antalya",
         "location": "Antalya, Turkey",
         "dates": "2017.06.25",
@@ -553,11 +592,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Yuichi Sugita",
         "doubles_winner_1_name": "Robert Lindstedt",
-        "doubles_winner_2_name": "Aisam-Ul-Haq Qureshi"
+        "doubles_winner_2_name": "Aisam-Ul-Haq Qureshi",
+        "fin_commit": "€497,255"
     },
     {
         "_id": "741",
-        "month": "Eastbourne\n\t\t\t\n\t\t\n\t\t\n\t\t\tEastbourne,",
+        "month": "06",
         "name": "Eastbourne",
         "location": "Eastbourne, Great Britain",
         "dates": "2017.06.26",
@@ -567,11 +607,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Novak Djokovic",
         "doubles_winner_1_name": "Bob Bryan",
-        "doubles_winner_2_name": "Mike Bryan"
+        "doubles_winner_2_name": "Mike Bryan",
+        "fin_commit": "€693,910"
     },
     {
         "_id": "540",
-        "month": "Wimbledon\n\t\t\t\n\t\t\n\t\t\n\t\t\tLondon,",
+        "month": "07",
         "name": "Wimbledon",
         "location": "London, Great Britain",
         "dates": "2017.07.03",
@@ -581,11 +622,12 @@
         "doubles_draw": "64",
         "singles_winner_name": "Roger Federer",
         "doubles_winner_1_name": "Lukasz Kubot",
-        "doubles_winner_2_name": "Marcelo Melo"
+        "doubles_winner_2_name": "Marcelo Melo",
+        "fin_commit": "£14,840,000"
     },
     {
         "_id": "315",
-        "month": "Newport\n\t\t\t\n\t\t\n\t\t\n\t\t\tNewport,",
+        "month": "07",
         "name": "Newport",
         "location": "Newport, United States",
         "dates": "2017.07.17",
@@ -595,11 +637,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "John Isner",
         "doubles_winner_1_name": "Aisam-Ul-Haq Qureshi",
-        "doubles_winner_2_name": "Rajeev Ram"
+        "doubles_winner_2_name": "Rajeev Ram",
+        "fin_commit": "$600,345"
     },
     {
         "_id": "316",
-        "month": "Bastad\n\t\t\t\n\t\t\n\t\t\n\t\t\tBastad,",
+        "month": "07",
         "name": "Bastad",
         "location": "Bastad, Sweden",
         "dates": "2017.07.17",
@@ -609,11 +652,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "David Ferrer",
         "doubles_winner_1_name": "Julian Knowle",
-        "doubles_winner_2_name": "Philipp Petzschner"
+        "doubles_winner_2_name": "Philipp Petzschner",
+        "fin_commit": "€540,310"
     },
     {
         "_id": "439",
-        "month": "Umag\n\t\t\t\n\t\t\n\t\t\n\t\t\tUmag,",
+        "month": "07",
         "name": "Umag",
         "location": "Umag, Croatia",
         "dates": "2017.07.17",
@@ -623,11 +667,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Andrey Rublev",
         "doubles_winner_1_name": "Guillermo Duran",
-        "doubles_winner_2_name": "Andres Molteni"
+        "doubles_winner_2_name": "Andres Molteni",
+        "fin_commit": "€540,310"
     },
     {
         "_id": "414",
-        "month": "Hamburg\n\t\t\t\n\t\t\n\t\t\n\t\t\tHamburg,",
+        "month": "07",
         "name": "Hamburg",
         "location": "Hamburg, Germany",
         "dates": "2017.07.24",
@@ -637,11 +682,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Leonardo Mayer",
         "doubles_winner_1_name": "Ivan Dodig",
-        "doubles_winner_2_name": "Mate Pavic"
+        "doubles_winner_2_name": "Mate Pavic",
+        "fin_commit": "€1,629,375"
     },
     {
         "_id": "6116",
-        "month": "Atlanta\n\t\t\t\n\t\t\n\t\t\n\t\t\tAtlanta,",
+        "month": "07",
         "name": "Atlanta",
         "location": "Atlanta, United States",
         "dates": "2017.07.24",
@@ -651,11 +697,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "John Isner",
         "doubles_winner_1_name": "Bob Bryan",
-        "doubles_winner_2_name": "Mike Bryan"
+        "doubles_winner_2_name": "Mike Bryan",
+        "fin_commit": "$720,410"
     },
     {
         "_id": "314",
-        "month": "Gstaad\n\t\t\t\n\t\t\n\t\t\n\t\t\tGstaad,",
+        "month": "07",
         "name": "Gstaad",
         "location": "Gstaad, Switzerland",
         "dates": "2017.07.24",
@@ -665,11 +712,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Fabio Fognini",
         "doubles_winner_1_name": "Oliver Marach",
-        "doubles_winner_2_name": "Philipp Oswald"
+        "doubles_winner_2_name": "Philipp Oswald",
+        "fin_commit": "€540,310"
     },
     {
         "_id": "418",
-        "month": "Washington\n\t\t\t\n\t\t\n\t\t\n\t\t\tWashington,",
+        "month": "07",
         "name": "Washington",
         "location": "Washington, United States",
         "dates": "2017.07.31",
@@ -679,11 +727,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Alexander Zverev",
         "doubles_winner_1_name": "Henri Kontinen",
-        "doubles_winner_2_name": "John Peers"
+        "doubles_winner_2_name": "John Peers",
+        "fin_commit": "$2,002,460"
     },
     {
         "_id": "7480",
-        "month": "Los",
+        "month": "07",
         "name": "Los Cabos",
         "location": "Los Cabos, Mexico",
         "dates": "2017.07.31",
@@ -693,11 +742,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Sam Querrey",
         "doubles_winner_1_name": "Juan Sebastian Cabal",
-        "doubles_winner_2_name": "Treat Huey"
+        "doubles_winner_2_name": "Treat Huey",
+        "fin_commit": "$727,995"
     },
     {
         "_id": "319",
-        "month": "Kitzbühel\n\t\t\t\n\t\t\n\t\t\n\t\t\tKitzbuhel,",
+        "month": "07",
         "name": "Kitzbühel",
         "location": "Kitzbuhel, Austria",
         "dates": "2017.07.31",
@@ -707,11 +757,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Philipp Kohlschreiber",
         "doubles_winner_1_name": "Pablo Cuevas",
-        "doubles_winner_2_name": "Guillermo Duran"
+        "doubles_winner_2_name": "Guillermo Duran",
+        "fin_commit": "€540,310"
     },
     {
         "_id": "421",
-        "month": "ATP",
+        "month": "08",
         "name": "ATP World Tour Masters 1000 Canada",
         "location": "Montreal, Canada",
         "dates": "2017.08.07",
@@ -721,11 +772,12 @@
         "doubles_draw": "24",
         "singles_winner_name": "Alexander Zverev",
         "doubles_winner_1_name": "Pierre-Hugues Herbert",
-        "doubles_winner_2_name": "Nicolas Mahut"
+        "doubles_winner_2_name": "Nicolas Mahut",
+        "fin_commit": "$5,275,595"
     },
     {
         "_id": "422",
-        "month": "ATP",
+        "month": "08",
         "name": "ATP World Tour Masters 1000 Cincinnati",
         "location": "Cincinnati, United States",
         "dates": "2017.08.13",
@@ -735,11 +787,12 @@
         "doubles_draw": "24",
         "singles_winner_name": "Grigor Dimitrov",
         "doubles_winner_1_name": "Pierre-Hugues Herbert",
-        "doubles_winner_2_name": "Nicolas Mahut"
+        "doubles_winner_2_name": "Nicolas Mahut",
+        "fin_commit": "$5,627,305"
     },
     {
         "_id": "6242",
-        "month": "Winston-Salem\n\t\t\t\n\t\t\n\t\t\n\t\t\tWinston-Salem,",
+        "month": "08",
         "name": "Winston-Salem",
         "location": "Winston-Salem, United States",
         "dates": "2017.08.20",
@@ -749,11 +802,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Roberto Bautista Agut",
         "doubles_winner_1_name": "Jean-Julien Rojer",
-        "doubles_winner_2_name": "Horia Tecau"
+        "doubles_winner_2_name": "Horia Tecau",
+        "fin_commit": "$748,960"
     },
     {
         "_id": "560",
-        "month": "US",
+        "month": "08",
         "name": "US Open",
         "location": "New York, United States",
         "dates": "2017.08.28",
@@ -763,11 +817,12 @@
         "doubles_draw": "64",
         "singles_winner_name": "Rafael Nadal",
         "doubles_winner_1_name": "Jean-Julien Rojer",
-        "doubles_winner_2_name": "Horia Tecau"
+        "doubles_winner_2_name": "Horia Tecau",
+        "fin_commit": "$24,193,400"
     },
     {
         "_id": "560",
-        "month": "Davis",
+        "month": "09",
         "name": "Davis Cup Semi-Finals",
         "location": "",
         "dates": "2017.09.15",
@@ -775,11 +830,12 @@
         "surface": "",
         "singles_draw": "4",
         "doubles_draw": "1",
-        "singles_winner_name": ""
+        "singles_winner_name": "",
+        "fin_commit": ""
     },
     {
         "_id": "568",
-        "month": "St.",
+        "month": "09",
         "name": "St. Petersburg",
         "location": "St. Petersburg, Russia",
         "dates": "2017.09.18",
@@ -789,11 +845,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Damir Dzumhur",
         "doubles_winner_1_name": "Roman Jebavy",
-        "doubles_winner_2_name": "Matwe Middelkoop"
+        "doubles_winner_2_name": "Matwe Middelkoop",
+        "fin_commit": "$1,064,715"
     },
     {
         "_id": "341",
-        "month": "Metz\n\t\t\t\n\t\t\n\t\t\n\t\t\tMetz,",
+        "month": "09",
         "name": "Metz",
         "location": "Metz, France",
         "dates": "2017.09.18",
@@ -803,11 +860,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Peter Gojowczyk",
         "doubles_winner_1_name": "Julien Benneteau",
-        "doubles_winner_2_name": "Edouard Roger-Vasselin"
+        "doubles_winner_2_name": "Edouard Roger-Vasselin",
+        "fin_commit": "€540,310"
     },
     {
         "_id": "7581",
-        "month": "Chengdu\n\t\t\t\n\t\t\n\t\t\n\t\t\tChengdu,",
+        "month": "09",
         "name": "Chengdu",
         "location": "Chengdu, China",
         "dates": "2017.09.25",
@@ -817,11 +875,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Denis Istomin",
         "doubles_winner_1_name": "Jonathan Erlich",
-        "doubles_winner_2_name": "Aisam-Ul-Haq Qureshi"
+        "doubles_winner_2_name": "Aisam-Ul-Haq Qureshi",
+        "fin_commit": "$1,138,910"
     },
     {
         "_id": "6967",
-        "month": "Shenzhen\n\t\t\t\n\t\t\n\t\t\n\t\t\tShenzhen,",
+        "month": "09",
         "name": "Shenzhen",
         "location": "Shenzhen, China",
         "dates": "2017.09.25",
@@ -831,11 +890,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "David Goffin",
         "doubles_winner_1_name": "Alexander Peya",
-        "doubles_winner_2_name": "Rajeev Ram"
+        "doubles_winner_2_name": "Rajeev Ram",
+        "fin_commit": "$731,680"
     },
     {
         "_id": "747",
-        "month": "Beijing\n\t\t\t\n\t\t\n\t\t\n\t\t\tBeijing,",
+        "month": "10",
         "name": "Beijing",
         "location": "Beijing, China",
         "dates": "2017.10.02",
@@ -845,11 +905,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Rafael Nadal",
         "doubles_winner_1_name": "Henri Kontinen",
-        "doubles_winner_2_name": "John Peers"
+        "doubles_winner_2_name": "John Peers",
+        "fin_commit": "$4,280,460"
     },
     {
         "_id": "329",
-        "month": "Tokyo\n\t\t\t\n\t\t\n\t\t\n\t\t\tTokyo,",
+        "month": "10",
         "name": "Tokyo",
         "location": "Tokyo, Japan",
         "dates": "2017.10.02",
@@ -859,11 +920,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "David Goffin",
         "doubles_winner_1_name": "Ben McLachlan",
-        "doubles_winner_2_name": "Yasutaka Uchiyama"
+        "doubles_winner_2_name": "Yasutaka Uchiyama",
+        "fin_commit": "$1,706,175"
     },
     {
         "_id": "5014",
-        "month": "ATP",
+        "month": "10",
         "name": "ATP World Tour Masters 1000 Shanghai",
         "location": "Shanghai, China",
         "dates": "2017.10.08",
@@ -873,11 +935,12 @@
         "doubles_draw": "24",
         "singles_winner_name": "Roger Federer",
         "doubles_winner_1_name": "Henri Kontinen",
-        "doubles_winner_2_name": "John Peers"
+        "doubles_winner_2_name": "John Peers",
+        "fin_commit": "$8,092,625"
     },
     {
         "_id": "438",
-        "month": "Moscow\n\t\t\t\n\t\t\n\t\t\n\t\t\tMoscow,",
+        "month": "10",
         "name": "Moscow",
         "location": "Moscow, Russia",
         "dates": "2017.10.16",
@@ -887,11 +950,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Damir Dzumhur",
         "doubles_winner_1_name": "Max Mirnyi",
-        "doubles_winner_2_name": "Philipp Oswald"
+        "doubles_winner_2_name": "Philipp Oswald",
+        "fin_commit": "$823,600"
     },
     {
         "_id": "7485",
-        "month": "Antwerp\n\t\t\t\n\t\t\n\t\t\n\t\t\tAntwerp,",
+        "month": "10",
         "name": "Antwerp",
         "location": "Antwerp, Belgium",
         "dates": "2017.10.16",
@@ -901,11 +965,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Jo-Wilfried Tsonga",
         "doubles_winner_1_name": "Scott Lipsky",
-        "doubles_winner_2_name": "Divij Sharan"
+        "doubles_winner_2_name": "Divij Sharan",
+        "fin_commit": "€660,375"
     },
     {
         "_id": "429",
-        "month": "Stockholm\n\t\t\t\n\t\t\n\t\t\n\t\t\tStockholm,",
+        "month": "10",
         "name": "Stockholm",
         "location": "Stockholm, Sweden",
         "dates": "2017.10.16",
@@ -915,11 +980,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Juan Martin Del Potro",
         "doubles_winner_1_name": "Oliver Marach",
-        "doubles_winner_2_name": "Mate Pavic"
+        "doubles_winner_2_name": "Mate Pavic",
+        "fin_commit": "€660,375"
     },
     {
         "_id": "337",
-        "month": "Vienna\n\t\t\t\n\t\t\n\t\t\n\t\t\tVienna,",
+        "month": "10",
         "name": "Vienna",
         "location": "Vienna, Austria",
         "dates": "2017.10.23",
@@ -929,11 +995,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Lucas Pouille",
         "doubles_winner_1_name": "Rohan Bopanna",
-        "doubles_winner_2_name": "Pablo Cuevas"
+        "doubles_winner_2_name": "Pablo Cuevas",
+        "fin_commit": "€2,621,850"
     },
     {
         "_id": "328",
-        "month": "Basel\n\t\t\t\n\t\t\n\t\t\n\t\t\tBasel,",
+        "month": "10",
         "name": "Basel",
         "location": "Basel, Switzerland",
         "dates": "2017.10.23",
@@ -943,11 +1010,12 @@
         "doubles_draw": "16",
         "singles_winner_name": "Roger Federer",
         "doubles_winner_1_name": "Ivan Dodig",
-        "doubles_winner_2_name": "Marcel Granollers"
+        "doubles_winner_2_name": "Marcel Granollers",
+        "fin_commit": "€2,291,860"
     },
     {
         "_id": "352",
-        "month": "ATP",
+        "month": "10",
         "name": "ATP World Tour Masters 1000 Paris",
         "location": "Paris, France",
         "dates": "2017.10.30",
@@ -957,11 +1025,12 @@
         "doubles_draw": "24",
         "singles_winner_name": "Jack Sock",
         "doubles_winner_1_name": "Lukasz Kubot",
-        "doubles_winner_2_name": "Marcelo Melo"
+        "doubles_winner_2_name": "Marcelo Melo",
+        "fin_commit": "€4,835,975"
     },
     {
         "_id": "7696",
-        "month": "Next",
+        "month": "11",
         "name": "Next Gen ATP Finals",
         "location": "Milan, Italy",
         "dates": "2017.11.07",
@@ -969,11 +1038,12 @@
         "surface": "Indoor Hard",
         "singles_draw": "8",
         "doubles_draw": "0",
-        "singles_winner_name": "Hyeon Chung"
+        "singles_winner_name": "Hyeon Chung",
+        "fin_commit": "$1,275,000"
     },
     {
         "_id": "605",
-        "month": "Nitto",
+        "month": "11",
         "name": "Nitto ATP Finals",
         "location": "London, Great Britain",
         "dates": "2017.11.12",
@@ -983,11 +1053,12 @@
         "doubles_draw": "8",
         "singles_winner_name": "Grigor Dimitrov",
         "doubles_winner_1_name": "Henri Kontinen",
-        "doubles_winner_2_name": "John Peers"
+        "doubles_winner_2_name": "John Peers",
+        "fin_commit": "$8,000,000"
     },
     {
         "_id": "605",
-        "month": "Davis",
+        "month": "11",
         "name": "Davis Cup Final",
         "location": "",
         "dates": "2017.11.24",
@@ -995,6 +1066,7 @@
         "surface": "",
         "singles_draw": "4",
         "doubles_draw": "1",
-        "singles_winner_name": ""
+        "singles_winner_name": "",
+        "fin_commit": ""
     }
 ]

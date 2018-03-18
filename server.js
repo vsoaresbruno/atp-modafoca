@@ -22,6 +22,7 @@ app.get('/scrape', function (req, res) {
       var json = [];
 
       $(".tourney-result").each(function (index, el) {
+
         // Set tourney ID
         let item_id = $(el).find(".tourney-details .button-border"),
           count_id = item_id.length;
@@ -33,13 +34,14 @@ app.get('/scrape', function (req, res) {
         }
 
         var data = $(this),
-          monthFormat = data.text().trim().split(" "),
+          // monthFormat = data.text().trim().split(" "),
           tourney_location,
           tourney_name,
-          tourney_badge,
+          tourney_badge;
 
-          tourney_location = $(this).find('.tourney-location').text().trim();
+        tourney_location = $(this).find('.tourney-location').text().trim();
         tourney_dates = $(this).find('.tourney-dates').text().trim();
+        tourney_month = tourney_dates.split(".")[1];
         tourney_name = $(this).find('.tourney-title').text().trim();
         tourney_badge_uri = $(this).find(".tourney-badge-wrapper img").attr('src');
         tourney_surface = regex_strip_string($(this).find("div.item-details:contains('Outdoor'), div.item-details:contains('Indoor')").first().text());
@@ -67,10 +69,11 @@ app.get('/scrape', function (req, res) {
 
         tourney_badge = tourney_badge_uri.split("_").pop();
         tourney_category = tourney_badge.replace(/\.[^/.]+$/, "");
+        fin_commit = regex_strip_string($(this).find(".fin-commit .item-value").text());
 
         json.push({
           _id: tourney_id,
-          month: monthFormat[0],
+          month: tourney_month,
           name: tourney_name,
           location: tourney_location,
           dates: tourney_dates,
@@ -80,15 +83,9 @@ app.get('/scrape', function (req, res) {
           doubles_draw: tourney_doubles_draw,
           singles_winner_name: sgl_winner_name,
           doubles_winner_1_name: dbl_winner_names[0],
-          doubles_winner_2_name: dbl_winner_names[1]
+          doubles_winner_2_name: dbl_winner_names[1],
+          fin_commit: fin_commit
         });
-
-
-        // var monthName = monthFormat[0],
-        // month = {};
-        // month[monthName] = { tourney_name, tournamentCity };
-
-        // json.tournaments.months.push(month);
 
       });
 
