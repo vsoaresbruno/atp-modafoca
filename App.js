@@ -13,14 +13,17 @@ import {
 	TouchableOpacity
 } from 'react-native';
 
+import { Icon } from 'react-native-elements';
+
 import { StackNavigator } from 'react-navigation';
 
 import dataTournaments from "./data/tournaments.json";
 // Components
-// import Row from './components/tournamentRow';
-import Separator from './components/separatorRow';
+import MenuBar from './components/menuBar';
+import RowItem from './components/rowItem';
+import Separator from './components/rowSeparator';
 
-class FirstActivity extends Component {
+class ListTournaments extends Component {
 
 	static navigationOptions = {
 		title: 'Tournaments',
@@ -34,6 +37,7 @@ class FirstActivity extends Component {
 		},
 
 		headerTintColor: {
+			backgroundColor: '#00aeef',
 			/*  */
 		},
 	}
@@ -46,12 +50,9 @@ class FirstActivity extends Component {
 	}
 
 	getTournaments() {
-		let ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });
 		this.setState({
 			isLoading: false,
 			dataSource: dataTournaments,
-		}, function () {
-			// In this block you can do something with new state.
 		});
 	}
 
@@ -61,8 +62,7 @@ class FirstActivity extends Component {
 
 	getItem = (tourney) => {
 		const { navigate } = this.props.navigation;
-		console.log(tourney)
-		navigate('Second', tourney);
+		navigate('Profile', tourney);
 	}
 
 	getBadge = (badge) => {
@@ -94,6 +94,7 @@ class FirstActivity extends Component {
 				</View>
 			);
 		}
+		this.navigation = this.props.navigation;
 		return (
 
 			<View style={styles.container}>
@@ -102,39 +103,20 @@ class FirstActivity extends Component {
 					keyExtractor={(item, index) => index}
 					style={styles.listContainer}
 					data={this.state.dataSource}
-					renderItem={({ item }) => (
-						<TouchableOpacity onPress={() => this.getItem(item)}>
-							<View style={styles.rowViewContainer}>
-								<View style={styles.tournamentImg}>
-									<Image
-										source={this.getBadge(item.category)}
-										style={{ height: 60 }} resizeMode="contain"
-									/>
-								</View>
-								<View style={styles.tournamentInfo}>
-									<View>
-										<Text
-											style={styles.rowTournament}>{item.name}
-										</Text>
-									</View>
-									<View>
-										<Text
-											style={styles.rowCity}>{item.location}
-										</Text>
-									</View>
-								</View>
-							</View>
-						</TouchableOpacity>
+					ItemSeparatorComponent={() => <Separator />}
+					renderItem={({ item }) => (<RowItem data={item} navigation={this.navigation} />
 					)}
 
 				/>
+				<Separator />
+				<MenuBar navigation={this.navigation} />
 			</View>
 
 		);
 	}
 }
 
-class SecondActivity extends Component {
+class TournamentProfile extends Component {
 
 	static navigationOptions = {
 		title: 'Tourney',
@@ -273,9 +255,37 @@ class SecondActivity extends Component {
 	}
 }
 
+class ListRankings extends Component {
+
+	static navigationOptions = {
+		title: 'Rankings',
+		headerTitleStyle: {
+			color: '#FFF'
+		},
+		headerStyle: {
+			backgroundColor: '#00aeef',
+		},
+		headerTintColor: '#FFF',
+		headerStyle: {
+			backgroundColor: '#00aeef'
+		},
+	}
+	render() {
+		this.navigation = this.props.navigation
+
+		return (
+			<View style={styles.itemContainer}>
+				<Separator />
+				<MenuBar navigation={this.navigation} />
+			</View>
+		);
+	}
+}
+
 export default Project = StackNavigator({
-	First: { screen: FirstActivity },
-	Second: { screen: SecondActivity }
+	Tournaments: { screen: ListTournaments },
+	Profile: { screen: TournamentProfile },
+	Rankings: { screen: ListRankings }
 });
 
 const styles = StyleSheet.create({
@@ -288,7 +298,6 @@ const styles = StyleSheet.create({
 
 	listContainer: {
 		marginTop: 0,
-		margin: 10,
 	},
 
 	rowViewContainer: {
@@ -381,7 +390,20 @@ const styles = StyleSheet.create({
 		fontSize: 20,
 		color: '#00aeef',
 		marginBottom: 3,
-	}
+	},
 
+	menuBar: {
+		flexDirection: 'row',
+		justifyContent: 'space-around',
+		marginTop: 10
+	},
+
+	menuBarItem: {
+		marginBottom: 8,
+	},
+
+	menuBarText: {
+		textAlign: 'center',
+	}
 
 });

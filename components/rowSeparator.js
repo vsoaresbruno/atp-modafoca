@@ -14,6 +14,6 @@ const styles = StyleSheet.create({
     itemSeparator: {
         height: .5,
         width: "100%",
-        backgroundColor: "#c7c8c8",
+        backgroundColor: "#00000025",
     },
 });
