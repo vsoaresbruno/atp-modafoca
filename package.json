@@ -26,6 +26,7 @@
     "react-native": "0.52.0",
     "react-native-elements": "^0.19.0",
     "react-navigation": "^1.5.8",
-    "request": "latest"
+    "request": "latest",
+    "request-promise": "^4.2.2"
   }
 }

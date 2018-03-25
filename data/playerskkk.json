@@ -1,0 +1,62 @@
+[
+    {
+        "uri": {
+            "protocol": "http:",
+            "slashes": true,
+            "auth": null,
+            "host": "www.atpworldtour.com",
+            "port": 80,
+            "hostname": "www.atpworldtour.com",
+            "hash": null,
+            "search": null,
+            "query": null,
+            "pathname": "/en/players/harrison-adams/ab54/overview",
+            "path": "/en/players/harrison-adams/ab54/overview",
+            "href": "http://www.atpworldtour.com/en/players/harrison-adams/ab54/overview"
+        },
+        "method": "GET",
+        "headers": {
+            "host": "www.atpworldtour.com"
+        }
+    },
+    {
+        "uri": {
+            "protocol": "http:",
+            "slashes": true,
+            "auth": null,
+            "host": "www.atpworldtour.com",
+            "port": 80,
+            "hostname": "www.atpworldtour.com",
+            "hash": null,
+            "search": null,
+            "query": null,
+            "pathname": "/en/players/dan-added/a09t/overview",
+            "path": "/en/players/dan-added/a09t/overview",
+            "href": "http://www.atpworldtour.com/en/players/dan-added/a09t/overview"
+        },
+        "method": "GET",
+        "headers": {
+            "host": "www.atpworldtour.com"
+        }
+    },
+    {
+        "uri": {
+            "protocol": "http:",
+            "slashes": true,
+            "auth": null,
+            "host": "www.atpworldtour.com",
+            "port": 80,
+            "hostname": "www.atpworldtour.com",
+            "hash": null,
+            "search": null,
+            "query": null,
+            "pathname": "/en/players/sarp-agabigun/ad04/overview",
+            "path": "/en/players/sarp-agabigun/ad04/overview",
+            "href": "http://www.atpworldtour.com/en/players/sarp-agabigun/ad04/overview"
+        },
+        "method": "GET",
+        "headers": {
+            "host": "www.atpworldtour.com"
+        }
+    }
+]

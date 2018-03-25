@@ -60,7 +60,6 @@ export default class ListTournaments extends Component {
         return (
 
             <View style={styles.container}>
-
                 <FlatList
                     keyExtractor={(item, index) => index}
                     style={styles.listContainer}
@@ -68,9 +67,7 @@ export default class ListTournaments extends Component {
                     ItemSeparatorComponent={() => <Separator />}
                     renderItem={({ item }) => (<RowItem data={item} navigation={this.navigation} />
                     )}
-
                 />
-                <Separator />
             </View>
 
         );

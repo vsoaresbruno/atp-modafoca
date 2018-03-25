@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 import { AppRegistry, StyleSheet, Text, View, Image, ImageBackground } from 'react-native';
 
+import { Icon } from 'react-native-elements';
+
 export default class TournamentProfile extends Component {
 
     static navigationOptions = {
@@ -20,6 +22,8 @@ export default class TournamentProfile extends Component {
 
     render() {
         const resizeMode = 'cover';
+        const data = this.props.navigation.state.params;
+
         return (
             <View style={styles.itemContainer}>
                 <ImageBackground
@@ -27,13 +31,13 @@ export default class TournamentProfile extends Component {
                     source={require("../images/header_blur.jpg")}
                 >
                     <Text
-                        style={styles.titleHeader}>{this.props.navigation.state.params.name}
+                        style={styles.titleHeader}>{data.name}
                     </Text>
                     <Text
-                        style={styles.textHeader}>{this.props.navigation.state.params.location}
+                        style={styles.textHeader}>{data.location}
                     </Text>
                     <Text
-                        style={styles.textHeader}>{this.props.navigation.state.params.dates}
+                        style={styles.textHeader}>{data.dates}
                     </Text>
                 </ImageBackground>
 
@@ -42,6 +46,7 @@ export default class TournamentProfile extends Component {
 
                     <View style={styles.tournamentInfo}>
                         <View style={styles.containerSection}>
+                            <Icon style={{}} type="simple-line-icon" name="layers" size={18} />
                             <Text style={styles.titleSection}>
                                 Surface
 							</Text>
@@ -49,7 +54,7 @@ export default class TournamentProfile extends Component {
 
                         <View style={styles.tournamentRow}>
                             <Text style={styles.infoValues}>
-                                {this.props.navigation.state.params.surface}
+                                {data.surface}
                             </Text>
 
                         </View>
@@ -57,18 +62,22 @@ export default class TournamentProfile extends Component {
 
                     <View style={styles.tournamentInfo}>
                         <View style={styles.containerSection}>
+                            <Icon style={{}} type="simple-line-icon" name="trophy" size={20} />
+
                             <Text style={styles.titleSection}>
                                 Winner
 							</Text>
                         </View>
+
                         <View style={styles.tournamentRow}>
+
                             <View>
                                 <Text style={styles.infoLabel}>SGL:</Text>
                             </View>
 
                             <View>
                                 <Text style={styles.infoValues}>
-                                    {this.props.navigation.state.params.singles_winner_name}
+                                    {data.singles_winner_name}
                                 </Text>
                             </View>
                         </View>
@@ -78,7 +87,7 @@ export default class TournamentProfile extends Component {
                             </View>
                             <View>
                                 <Text style={styles.infoValues}>
-                                    {this.props.navigation.state.params.doubles_winner_1_name}, {this.props.navigation.state.params.doubles_winner_2_name}
+                                    {data.doubles_winner_1_name}, {data.doubles_winner_2_name}
                                 </Text>
                             </View>
                         </View>
@@ -88,6 +97,7 @@ export default class TournamentProfile extends Component {
 
                     <View style={styles.tournamentInfo}>
                         <View style={styles.containerSection}>
+                            <Icon style={styles.iconSection} type="simple-line-icon" name="organization" size={18} />
                             <Text style={styles.titleSection}>
                                 Draw
 							</Text>
@@ -99,7 +109,7 @@ export default class TournamentProfile extends Component {
 
                             <View>
                                 <Text style={styles.infoValues}>
-                                    {this.props.navigation.state.params.singles_draw}
+                                    {data.singles_draw}
                                 </Text>
                             </View>
                         </View>
@@ -109,7 +119,7 @@ export default class TournamentProfile extends Component {
                             </View>
                             <View>
                                 <Text style={styles.infoValues}>
-                                    {this.props.navigation.state.params.doubles_draw}
+                                    {data.doubles_draw}
                                 </Text>
                             </View>
                         </View>
@@ -117,6 +127,7 @@ export default class TournamentProfile extends Component {
 
                     <View style={styles.tournamentInfo}>
                         <View style={styles.containerSection}>
+                            <Icon style={styles.iconSection} type="material-icons" name="attach-money" size={18} />
                             <Text style={styles.titleSection}>
                                 Total Financial Commitment
 							</Text>
@@ -124,7 +135,7 @@ export default class TournamentProfile extends Component {
 
                         <View style={styles.tournamentRow}>
                             <Text style={styles.infoValues}>
-                                {this.props.navigation.state.params.fin_commit}
+                                {data.fin_commit}
                             </Text>
 
                         </View>
@@ -216,6 +227,7 @@ const styles = StyleSheet.create({
     infoLabel: {
         fontSize: 16,
         fontWeight: 'bold',
+        marginRight: 5,
     },
 
     infoValues: {
@@ -224,6 +236,7 @@ const styles = StyleSheet.create({
     },
 
     containerSection: {
+        flexDirection: 'row',
         marginBottom: 5,
         paddingBottom: 5,
         borderBottomColor: '#dcdcdc',
@@ -232,9 +245,10 @@ const styles = StyleSheet.create({
     },
 
     titleSection: {
+        marginLeft: 10,
+        fontSize: 20,
         color: '#333',
         fontWeight: 'bold',
-        fontSize: 20,
     },
 
     infoText: {

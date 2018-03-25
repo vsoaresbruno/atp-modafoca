@@ -2,8 +2,6 @@ import React, { Component } from "react";
 
 import { AppRegistry, Platform, StyleSheet, ActivityIndicator, ListView, FlatList, Text, View, Image, ImageBackground, TouchableOpacity } from 'react-native';
 
-import Ionicons from 'react-native-vector-icons/Ionicons';
-
 import { Icon } from 'react-native-elements';
 
 import { StackNavigator, TabNavigator, TabBarBottom } from 'react-navigation';
@@ -15,12 +13,13 @@ import ListRankings from "./components/ListRankings";
 
 const MainTab = TabNavigator(
 	{
+		Rankings: {
+			screen: ListRankings,
+		},
 		Tournaments: {
 			screen: ListTournaments,
 		},
-		Players: {
-			screen: ListRankings,
-		},
+
 	},
 
 	{
@@ -34,18 +33,17 @@ const MainTab = TabNavigator(
 				const { routeName } = navigation.state;
 				let iconName;
 				if (routeName === 'Tournaments') {
-					iconName = `list`;
+					iconName = `calendar`;
 					// iconName = `ios-information-circle${focused ? '' : '-outline'}`;
-				} else if (routeName === 'Players') {
-					iconName = `people`;
+				} else if (routeName === 'Rankings') {
+					iconName = `list`;
 					// iconName = `ios-options${focused ? '' : '-outline'}`;
 				}
 
 				// You can return any component that you like here! We usually use an
 				// icon component from react-native-vector-icons
 				return <Icon type="simple-line-icon" name={iconName} size={25} color={tintColor} />;
-				// return <Ionicons name={iconName} size={25} color={tintColor} />;
-			},
+			}
 		}),
 		tabBarOptions: {
 			showLabel: true,
@@ -63,7 +61,7 @@ export default App = StackNavigator({
 	MainTab: { screen: MainTab },
 	Tournaments: { screen: ListTournaments },
 	Profile: { screen: TournamentProfile },
-	Players: { screen: ListRankings },
+	Rankings: { screen: ListRankings },
 },
 	{
 		cardStyle: {

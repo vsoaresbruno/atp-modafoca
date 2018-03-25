@@ -1,42 +1,105 @@
 import React, { Component } from "react";
 
-import { View, StyleSheet } from 'react-native';
+import { StyleSheet, ActivityIndicator, FlatList, Text, View } from 'react-native';
 
+//Load Data
+import dataRankings from "../data/rankings.json";
+// Components
+import RowItem from '../components/rankingItem';
 import Separator from '../components/rowSeparator';
 
 export default class ListRankings extends Component {
 
     static navigationOptions = {
-        title: 'Players',
+        title: 'Rankings',
         headerTitleStyle: {
+            /*  */
             color: '#FFF'
         },
         headerStyle: {
+            /*  */
             backgroundColor: '#00aeef',
         },
-        headerTintColor: '#FFF',
-        headerStyle: {
-            backgroundColor: '#00aeef'
+
+        headerTintColor: {
+            backgroundColor: '#00aeef',
+            /*  */
         },
     }
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            isLoading: true,
+        }
+    }
+
+    getRankings() {
+        this.setState({
+            isLoading: false,
+            dataSource: dataRankings,
+        });
+    }
+
+    componentDidMount() {
+        return this.getRankings();
+    }
+
     render() {
-        this.navigation = this.props.navigation
+        if (this.state.isLoading) {
+            return (
+                <View style={{ flex: 1 }}>
+                    <ActivityIndicator />
+                </View>
+            );
+        }
+        this.navigation = this.props.navigation;
 
         return (
-            <View style={styles.itemContainer}>
-                <Separator />
+
+            <View style={styles.container}>
+                <View style={styles.headerRow}>
+                    <Text style={styles.rowPosition}>Ranking</Text>
+                    <Text style={styles.rowPlayer}>Player</Text>
+                    <Text style={styles.labelPoints}>Points</Text>
+                </View>
+                <FlatList
+                    keyExtractor={(item, index) => index}
+                    style={styles.listContainer}
+                    data={this.state.dataSource}
+                    ItemSeparatorComponent={() => <Separator />}
+                    renderItem={({ item }) => (<RowItem data={item} navigation={this.navigation} />
+                    )}
+                />
             </View>
+
         );
     }
 }
 
 const styles = StyleSheet.create({
 
-    container: {
-        // Setting up View inside content in Vertically center.
-        justifyContent: 'center',
-        flexDirection: 'column',
-        flex: 1,
+    headerRow: {
+        padding: 5,
+        flexDirection: 'row',
+        backgroundColor: '#f2f2f2b3',
+    },
+
+    rowPosition: {
+        marginLeft: 5,
+        flex: 0.62,
+        color: '#333',
+    },
+
+    rowPlayer: {
+        // marginRight: 28,
+        flex: 2,
+        color: '#333',
+    },
+
+    labelPoints: {
+        flex: .48,
+        color: '#333',
 
     },
 
